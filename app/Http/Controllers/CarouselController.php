@@ -47,4 +47,9 @@ class CarouselController extends Controller
         $destinationPath = 'images';
         $file->move($destinationPath, $file->getClientOriginalName());
     }
+
+
+
+
+
 }

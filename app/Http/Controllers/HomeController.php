@@ -29,4 +29,12 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function carouselAdmin()
+    {
+        return view('carousel-admin');
+    }
+
+
+
 }
