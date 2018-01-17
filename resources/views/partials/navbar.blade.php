@@ -29,13 +29,13 @@
                     <a href="#news">News</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="/portfolio">Portfolio</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#contact">Contact</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="../index-2.html">Main</a>
+                    <a href="/panel">Admin Console</a>
                 </li>
             </ul>
         </div>

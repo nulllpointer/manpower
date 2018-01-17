@@ -15,8 +15,22 @@ use App\Models\Carousel as Carousel;
 
 Route::get('/', function () {
     $carousel = Carousel::where('section_name', 'intro')->get();
-    return view('welcome',['carousels'=> $carousel]);
+    return view('welcome', ['carousels' => $carousel]);
 });
+
+
+Route::get('/gallery', function () {
+    $gallery = \App\gallery::get();
+    return view('gallery')->with('gallery', $gallery);
+});
+
+Route::get('/portfolio', function () {
+
+    return view('portfolio');
+});
+
+
+
 
 Auth::routes();
 
@@ -32,4 +46,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/hero', 'HomeController@hero')->name('hero');
+//Route::get('/hero', 'HomeController@hero')->name('hero');

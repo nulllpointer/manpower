@@ -136,9 +136,15 @@ return [
     |
     */
 
+
+
+
+
+
+
     'providers' => [
 
-
+    Serverfireteam\Panel\PanelServiceProvider::class,
 
         /*
          * Laravel Framework Service Providers...
