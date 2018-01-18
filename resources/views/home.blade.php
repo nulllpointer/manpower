@@ -43,10 +43,13 @@
 
     </section>
     <section id="about" class="about-sect
-        <div class="container content-box">
+        <div class="container content-box" >
     <div class="header">
         <h2 class="heading">Himalayan Manang Trek</h2>
     </div>
+
+
+
     <p><span class="dropcap-bg">N</span>amaste & Phyafulla !
         <br>
         A visit to The Himalayan country 'Nepal' is a step towards paradise that promises you the most
