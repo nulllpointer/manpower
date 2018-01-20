@@ -27,21 +27,22 @@
         </div>
         <div class="container">
             <div class="row margin-bottom-20">
-                <div class="col-md-3 col-sm-6">
-                    <div class="thumbnails thumbnail-style thumbnail-kenburn">
-                        <div class="thumbnail-img">
-                            <div class="overflow-hidden">
-                                <img class="img-responsive" src="{{ asset('images/why1_hover.png') }}" alt="">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="{{ asset($blocks[0]->imgUrl) }}" alt="">
+                                </div>
+                                <a class="btn-more hover-effect" href="#">read more +</a>
                             </div>
-                            <a class="btn-more hover-effect" href="#">read more +</a>
-                        </div>
-                        <div class="caption">
-                            <h3><a class="hover-effect" href="#">Project One</a></h3>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus
-                                etiam porta sem.</p>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">{{$blocks[0]->heading}}</a></h3>
+                                <p>{{$blocks[0]->description}}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+
+              
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnails thumbnail-style thumbnail-kenburn">
                         <div class="thumbnail-img">

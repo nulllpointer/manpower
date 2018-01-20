@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-    <div class="panel panel-default">
+    <div class="panel panel-default" xmlns:Form="http://www.w3.org/1999/xhtml">
         <div class="panel-heading"><h3>Manage Carousel</h3></div>
 
         <div class="panel-body">
@@ -9,7 +9,8 @@
                 <div class="col-md-6">
 
                     <!-- COMPONENT START -->
-                    <div class="form-group">
+                    <div url="/profilehandler"
+                    class="form-group">
                         <div class="input-group input-file" name="Fichier1">
 			<span class="input-group-btn">
         		<button class="btn btn-default btn-choose" type="button">Choose</button>
@@ -20,6 +21,7 @@
     		</span>
                         </div>
                     </div>
+
                     <h4>Captions</h4>
                     <div class="form-group">
                         <input type="text" class="form-control" id="cHeading" placeholder="Caption Heading">
@@ -51,6 +53,22 @@
                         <div class="col-md-4"></div>
                     </div>
                 </div>
+
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4"><img src="uploads/{{}}" class="img-thumbnail"
+                                               alt="Cinque Terre"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+
+
+
+
+
+
             </div>
         </div>
     </div>

@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\aboutus;
+use App\Models\Block;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 
 class HomeController extends Controller
 {
@@ -23,7 +26,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+
+        $blocks = Block::all();
+
+        print_r($blocks);
+        return view('home',$blocks);
     }
     public function hero()
     {
@@ -35,6 +42,13 @@ class HomeController extends Controller
         return view('carousel-admin');
     }
 
+    public function aboutus()
+    {
+        $aboutus = aboutus::firstOrNew(array('email' => Input::get('email')));
+        $aboutus->save();
+
+        return view('aboutus');
+    }
 
 
 }

@@ -15,19 +15,33 @@ use App\Models\Carousel as Carousel;
 
 Route::get('/', function () {
     $carousel = Carousel::where('section_name', 'intro')->get();
-    return view('welcome', ['carousels' => $carousel]);
+
+    $blocks = \App\Models\Block::all();
+
+    return view('welcome', ['carousels' => $carousel,'blocks'=>$blocks]);
 });
 
 
 Route::get('/gallery', function () {
-    $gallery = \App\gallery::get();
-    return view('gallery')->with('gallery', $gallery);
+    return view('gallery');
 });
 
-Route::get('/portfolio', function () {
 
-    return view('portfolio');
+Route::get('/index', function () {
+
+    return view('index');
 });
+
+Route::get('/aboutus', function () {
+
+    return view('aboutus');
+});
+
+Route::get('/contactus', function () {
+
+    return view('contactus');
+});
+
 
 
 
@@ -37,13 +51,11 @@ Auth::routes();
 Route::get('/admin', 'HomeController@index')->name('home');
 Route::get('/admin/carousel', 'HomeController@carouselAdmin')->name('carouselAdmin');
 Route::get('/carousel/{section}', 'CarouselController@index')->name('carousel');
+
+
 Route::post('/intro/carousel', 'CarouselController@saveCarousel')->name('createCarousel');
 
 Route::get('/about/block', 'BlockController@about')->name('about');
 
-
-Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
 
-//Route::get('/hero', 'HomeController@hero')->name('hero');

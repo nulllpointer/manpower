@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\gallery;
 use App\Models\Carousel as Carousel;
 use App\Models\CarouselDto;
 use Illuminate\Http\Request;
@@ -13,6 +14,12 @@ class CarouselController extends Controller
     {
         $carousels= array();
         $carousel = Carousel::where('section_name', 'intro')->get();
+
+        $gallery=array();
+        $gallery = gallery::where('image')->get();
+
+
+
 //        echo $carousel;
 //        print_r($carousel);
 //        return response()->header('Content-Type', )->json("asasasasasasasasasass") ;
