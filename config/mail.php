@@ -101,6 +101,13 @@ return [
 
     'sendmail' => '/usr/sbin/sendmail -bs',
 
+
+
+
+
+
+
+
     /*
     |--------------------------------------------------------------------------
     | Markdown Mail Settings
@@ -119,5 +126,11 @@ return [
             resource_path('views/vendor/mail'),
         ],
     ],
+
+
+
+
+
+
 
 ];

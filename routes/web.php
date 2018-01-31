@@ -14,11 +14,138 @@
 use App\Models\Carousel as Carousel;
 
 Route::get('/', function () {
-    $carousel = Carousel::where('section_name', 'intro')->get();
-    return view('welcome',['carousels'=> $carousel]);
+    $notices = \App\notices::get();
+    $aboutus = \App\aboutus::get();
+    $staffs = \App\staffs::get();
+
+    return view('index', ['aboutus' => $aboutus, 'notices' => $notices, 'staffs' => $staffs]);
 });
 
-Auth::routes();
+
+Route::get('/index', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+
+    return view('index', ['aboutus' => $aboutus, 'notices' => $notices, 'staffs' => $staffs]);
+
+});
+
+
+Route::get('/about', function () {
+    $aboutus = \App\aboutus::get();
+    $staffs = \App\staffs::get();
+    $notices = \App\notices::get();
+
+    return view('about', ['aboutus' => $aboutus, 'staffs' => $staffs]);
+});
+
+Route::get('/blog', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+
+    return view('blog', ['aboutus' => $aboutus, 'notices' => $notices]);
+
+});
+
+Route::get('/contact', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+
+    return view('contact', ['aboutus' => $aboutus]);
+
+});
+
+Route::get('/portfolio', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+
+
+    return view('portfolio', ['aboutus' => $aboutus]);
+});
+
+Route::get('/services', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+    return view('services', ['aboutus' => $aboutus]);
+
+});
+
+Route::get('/gallery', function () {
+    $aboutus = \App\aboutus::get();
+    $documents = \App\documents::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+
+    return view('gallery', ['documents' => $documents, 'aboutus' => $aboutus]);
+
+});
+
+
+Route::get('/sendform', function (\Illuminate\Http\Request $request) {
+    $validator = Validator::make($request->all(), [
+
+
+
+    ]);
+
+    if ($validator->fails()) {
+        return redirect('/contact')
+            ->withInput()
+            ->withErrors($validator);
+    }
+
+    $firstname = $request->firstname;
+    $lastname = $request->lastname;
+    $mobile = $request->mobile;
+    $body = $request->body;
+    $email = $request->email;
+
+
+    $data = array('firstname' => "$firstname", 'lastname' => "$lastname", 'mobile' => "$mobile", 'body' => "$body");
+
+    Mail::send(['text' => 'mail'], $data, function ($message) use ($email) {
+        $message->to('hitesh.jha415@gmail.com')->subject
+        ('Email from ITGNEPAL');
+        $message->from($email);
+
+    });
+
+    echo "Email Sent.Thank you for contacting International Trade Group Nepal. We shall get back to you at the earliest";
+
+    header("refresh:3; url=contact");
+
+
+});
+
+
+
+
+
+
+/*Route::post('sendbasicemail', 'MailController@basic_email', function (Request $request) {
+
+
+}
+
+
+);
+Route::get('sendhtmlemail', 'MailController@html_email');
+Route::get('sendattachmentemail', 'MailController@attachment_email');
+
+
+/*Route::get('user/{name}', function ($name) {
+    //
+})
+    ->where('name', '(foo|bar|baz)');
+*/
+
+
+/*Auth::routes();
 
 Route::get('/admin', 'HomeController@index')->name('home');
 Route::get('/admin/carousel', 'HomeController@carouselAdmin')->name('carouselAdmin');
@@ -33,3 +160,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/hero', 'HomeController@hero')->name('hero');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');*/
