@@ -26,11 +26,13 @@ class aboutusController extends CrudController
         $this->grid->add('email', 'Email');
         $this->grid->add('address', 'Address');
         $this->grid->add('mobile', 'Mobile');
-        $this->grid->add('image1', 'Image1');
-        $this->grid->add('image2', 'Image2');
+        $this->grid->add('title1', 'Title1');
+        $this->grid->add('title2', 'Title2');
         $this->grid->add('logo', 'Logo');
         $this->grid->add('imageabout', 'Imageabout');
-
+        $this->grid->add('imagemission', 'Imagemission');
+        $this->grid->add('imagecorevalue', 'Imagecorevalue');
+        $this->grid->add('imagechooseus', 'Imagechooseus');
 
 
         $this->addStylesToGrid();
@@ -57,25 +59,25 @@ class aboutusController extends CrudController
 
         $this->edit->add('mobile', 'Mobile', 'text')->rule('required');
 
-        $this->edit->add('image1', 'Image1', 'file')->rule('required');
+        $this->edit->add('title1', 'Title1', 'file')->rule('required');
 
-        $this->edit->add('image2', 'Image2', 'file')->rule('required');
+        $this->edit->add('title2', 'Title2', 'file')->rule('required');
 
         $this->edit->add('logo', 'Logo', 'file')->rule('required');
 
         $this->edit->add('imageabout', 'Imageabout', 'file')->rule('required');
 
-
-
+        $this->edit->add('imagemission', 'Imagemission', 'file')->rule('required');
+        $this->edit->add('imagevision', 'Imagevision', 'file')->rule('required');
+        $this->edit->add('imageobjective', 'Imageobjective', 'file')->rule('required');
+        $this->edit->add('imagecorevalue', 'Imagecorevalue', 'file')->rule('required');
+        $this->edit->add('imagechooseus', 'Imagechooseus', 'file')->rule('required');
 
 
         return $this->returnEditView();
 
 
-
-
     }
-
 
 
 }

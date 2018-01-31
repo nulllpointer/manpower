@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <!--[if IE]>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>ItgNEPAL</title>
+    <title>Trade Group</title>
 
     <meta name="author" content="themsflat.com">
 
@@ -302,11 +302,6 @@
 </div>
 
 @extends('partials.footer')
-<div class="button-go-top">
-    <a href="#" title="" class="go-top">
-        <i class="fa fa-chevron-up"></i>
-    </a><!-- /.go-top -->
-</div><!-- /.button-go-top -->
 </div>
 
 <!-- Javascript -->
@@ -345,18 +340,6 @@
 <!--===============================================================================================-->
 <script src="js/main.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'UA-23581568-13');
-</script>
 
 
 </body>

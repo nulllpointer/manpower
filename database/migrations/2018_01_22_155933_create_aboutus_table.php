@@ -19,10 +19,15 @@ class CreateAboutusTable extends Migration
             $table->string('address');
             $table->string('email');
             $table->string('mobile');
-            $table->string('image1');
-            $table->string('image2');
+            $table->string('title1');
+            $table->string('title2');
             $table->string('logo');
             $table->string('imageabout');
+            $table->string('imagemission');
+            $table->string('imagevision');
+            $table->string('imageobjective');
+            $table->string('imagecorevalue');
+            $table->string('imagechooseus');
 
 
             $table->timestamps();

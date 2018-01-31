@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <!--[if IE]>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>ItgNEPAL</title>
+    <title>Trade Group</title>
 
     <meta name="author" content="themsflat.com">
 
@@ -62,7 +62,7 @@
 
     <section class="flat-planning">
         <div class="container">
-            <div class="row tab-planning" style="    margin-top: 10px;">
+            <div class="row tab-planning" style="    margin-top: 10px;    ">
                 <div class="col-md-3">
                     <ul class="tab-list">
                         <li id="main">Training And Orientation</li>
@@ -120,7 +120,7 @@
 
 
                             <div class="image-planning">
-                                <img src="images/page/training.jpg" style="height: 239px;width: 766px">
+                                <img src="images/page/trainingprog.png" style="height: 239px;width: 766px">
 
                             </div>
 
@@ -387,9 +387,11 @@
 
                         <div class="tab-item">
                             <div class="desc">
-                                <p>If you don’t have any experience and any work skills don’t worries we handle the
-                                    situation. Even you are very fresh worker and wanted to get success in your life
-                                    please do contact us, we are ready to apply your secure job in aboard.
+                                <p>If you don’t have any experience and any work skills don’t worry we handle the
+                                    situation. Even you are very fresh worker and want to get success in your life
+                                    please do contact us, we are ready to apply for your secure job aboard. Our
+                                    employers have constant demands for listed jobs. If you are interested then please
+                                    dont hesitate,we are here to serve you.
 
                                 </p>
 
@@ -411,7 +413,7 @@
 
 
                             <div class="image-planning">
-                                <img src="images/page/semiskilled.jpg">
+                                <img src="images/page/semiskilled.jpg" style="    padding-bottom: 143px;">
 
                             </div>
 

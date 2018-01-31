@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <!--[if IE]>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>ItgNEPAL</title>
+    <title>Trade Group</title>
 
 
     <!-- Mobile Specific Metas -->
@@ -269,7 +269,8 @@
                         data-param10="" data-description="">
 
                         <!-- MAIN IMAGE -->
-                        <img src="uploads/{{ $aboutus[0]->image2 }}" alt="" data-bgposition="center center" data-kenburns="off"
+                        <img src="uploads/{{ $aboutus[0]->title2 }}" alt="" data-bgposition="center center"
+                             data-kenburns="off"
                              data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
                              data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0"
                              data-bgparallax="10" class="rev-slidebg" data-no-retina>
@@ -371,7 +372,8 @@
                         data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
                         data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="uploads/{{ $aboutus[0]->image1 }}" alt="" data-bgposition="center center" data-bgfit="cover"
+                        <img src="uploads/{{ $aboutus[0]->title1 }}" alt="" data-bgposition="center center"
+                             data-bgfit="cover"
                              data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         <div class="overlay"></div>
 
@@ -724,7 +726,9 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="about">
                         <div class="about-image">
-                            <img src="images/page/whychooseus.jpg" alt="" style="height: 500px">
+                            <img src="uploads/{{ $aboutus[0]->imagechooseus }}" alt="" style="    height: 456px;
+    padding-top: 51px;
+    padding-bottom: 64px;">
                         </div><!-- /.about-video -->
                     </div><!-- /.about -->
                 </div><!-- /.col-md-6 -->
@@ -737,17 +741,19 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="about">
                         <div class="flat-row-title about-title left">
-                            <h2>Our Mission</h2>
+                            <h2>Mission and Vision</h2>
                         </div>
                         <div class="about-content">
                             <p>Our mission is to provide our
                                 clients and candidates with excellent recruitment services based on mutual
                                 trust and the highest professional standards driven by quality and cost
-                                consciousness. Our team of professionals entirely
+                                consciousness. We, in this organization, make all efforts to
+                                keep in touch with workers from the time of sending them abroad until their
+                                return after the completion of their project or in most cases, till their
+                                transfer to other countries as well. Our team of professionals are entirely
                                 devoted in the mission to provide globally competitive manpower resources to the clients
                                 so that they can acquire gifted work force that will benefit their organization in every
-                                way possible We always look for cooperation for the
-                                supply of Nepalese manpower force to various countries. This will definitely
+                                way possibl. This will definitely
                                 strengthen the bridge between potential job seekers and generous employers and
                                 would also enhance our national development scheme.
                             </p>
@@ -759,78 +765,80 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="about">
                         <div class="about-image">
-                            <img src="images/page/mission.jpg" alt="" style="height: 400px;">
+                            <img src="uploads/{{ $aboutus[0]->imagemission }}" alt=""
+                                 style="height: 444px;padding-top: 37px;padding-bottom: 64px;width: 100%;">
                         </div><!-- /.about-video -->
                     </div><!-- /.about -->
                 </div><!-- /.col-md-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section>
-    <section class="flat-row flat-about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="about">
-                        <div class="flat-row-title about-title left">
-                            <h2>Our Vision</h2>
-                        </div>
-                        <div class="about-content">
-                            <p>Our vision is to legally generate equal
-                                employment opportunities to various categories of labour force and professional
-                                personnel to overseas countries. We, in this organization, make all efforts to
-                                keep in touch with workers from the time of sending them abroad until their
-                                return after the completion of their project or in most cases, till their
-                                transfer to other countries as well.To assist qualified and talented Nepalese
-                                nationals to realize their full professional and personal aspirations by
-                                providing opportunities with professional employers who will value their skills
-                                and competence.
-                            </p>
-                        </div><!-- /.about-content -->
-                    </div><!-- /.about -->
-                </div><!-- /.col-md-6 -->
-                <div class="col-md-6 col-sm-6">
-                    <div class="about">
-                        <div class="about-image">
-                            <img src="images/page/vision.jpg" alt="" style="height: 400px;">
-                        </div><!-- /.about-video -->
-                    </div><!-- /.about -->
-                </div><!-- /.col-md-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section>
-    <section class="flat-row flat-about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="about">
-                        <div class="flat-row-title about-title left">
-                            <h2>Our Objective</h2>
-                        </div>
-                        <div class="about-content">
-                            <p>Manpower companies are bridge connecting employees and employers. The main objective of
-                                the bridge is to make that connection trustworthy so that employees reach their
-                                employer.We provide well experienced & skillful manpower to the client companies around the
-                                globe. Our focus is to solve the ever increasing unemployment problem of the nation,
-                                to utilise the skill & experience of the people for their betterment and
-                                to focus on the upliftment of the basic living standard of the socially discriminated
-                                group of people.
-                                We also strive to provide a better & reliable source of remittance to the nation.
-                            <div class="check-box">
-                                <div class="clearfix"></div>
-                            </div>
-                        </div><!-- /.about-content -->
-                    </div><!-- /.about -->
-                </div><!-- /.col-md-6 -->
-                <div class="col-md-6 col-sm-6">
-                    <div class="about">
-                        <div class="about-image">
-                            <img src="images/page/objective1.jpg" alt="" style="height: 400px;">
-                        </div><!-- /.about-video -->
-                    </div><!-- /.about -->
-                </div><!-- /.col-md-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section>
+    {{-- <section class="flat-row flat-about">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6 col-sm-6">
+                     <div class="about">
+                         <div class="flat-row-title about-title left">
+                             <h2>Our Vision</h2>
+                         </div>
+                         <div class="about-content">
+                             <p>Our vision is to legally generate equal
+                                 employment opportunities to various categories of labour force and professional
+                                 personnel to overseas countries. We, in this organization, make all efforts to
+                                 keep in touch with workers from the time of sending them abroad until their
+                                 return after the completion of their project or in most cases, till their
+                                 transfer to other countries as well.To assist qualified and talented Nepalese
+                                 nationals to realize their full professional and personal aspirations by
+                                 providing opportunities with professional employers who will value their skills
+                                 and competence.
+                             </p>
+                         </div><!-- /.about-content -->
+                     </div><!-- /.about -->
+                 </div><!-- /.col-md-6 -->
+                 <div class="col-md-6 col-sm-6">
+                     <div class="about">
+                         <div class="about-image">
+                             <img src="images/page/vision.jpg" alt="" style="height: 400px;">
+                         </div><!-- /.about-video -->
+                     </div><!-- /.about -->
+                 </div><!-- /.col-md-6 -->
+             </div><!-- /.row -->
+         </div><!-- /.container -->
+     </section>
+     <section class="flat-row flat-about">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6 col-sm-6">
+                     <div class="about">
+                         <div class="flat-row-title about-title left">
+                             <h2>Our Objective</h2>
+                         </div>
+                         <div class="about-content">
+                             <p>Manpower companies are bridge connecting employees and employers. The main objective of
+                                 the bridge is to make that connection trustworthy so that employees reach their
+                                 employer.We provide well experienced & skillful manpower to the client companies around the
+                                 globe. Our focus is to solve the ever increasing unemployment problem of the nation,
+                                 to utilise the skill & experience of the people for their betterment and
+                                 to focus on the upliftment of the basic living standard of the socially discriminated
+                                 group of people.
+                                 We also strive to provide a better & reliable source of remittance to the nation.
+                             <div class="check-box">
+                                 <div class="clearfix"></div>
+                             </div>
+                         </div><!-- /.about-content -->
+                     </div><!-- /.about -->
+                 </div><!-- /.col-md-6 -->
+                 <div class="col-md-6 col-sm-6">
+                     <div class="about">
+                         <div class="about-image">
+                             <img src="images/page/objective1.jpg" alt="" style="height: 400px;">
+                         </div><!-- /.about-video -->
+                     </div><!-- /.about -->
+                 </div><!-- /.col-md-6 -->
+             </div><!-- /.row -->
+         </div><!-- /.container -->
+     </section>
+    --}}
     <section class="flat-row flat-about">
         <div class="container">
             <div class="row">
@@ -893,85 +901,20 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="about">
                         <div class="about-image">
-                            <img src="images/page/corevalues.jpg" alt="" style="height: 800px; width: 570px">
+                            <img src="uploads/{{ $aboutus[0]->imagecorevalue }}" alt="" style="     height: 613px;
+    width: 570px;
+    padding-top: 52px;">
                         </div><!-- /.about-video -->
                     </div><!-- /.about -->
                 </div><!-- /.col-md-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section>
-    <section class="flat-testimonial style2 parallax parallax9">
-        <div class="container">
-
-
-
-            <div class="row">
-
-
-                <div class="col-md-12">
-                    <div class="owl-carousel-9">
-
-                        <!-- /.testimonial-item style1 -->
-                            <div class="testimonial-item style1">
-                                <div class="testimonial-image">
-                                    <img src="uploads/{{ $staffs[0]->image }}" alt="{{ $staffs[0]->name }}"
-                                         style="height: 170px; width: 170px">
-                                </div>
-                                <div class="testimonial-content">
-                                    <div class="info-author">
-                                        {{$staffs[0]->name}} <span>/</span> <span
-                                                class="option">{{$staffs[0]->department}}</span>
-                                    </div>
-
-
-                                    <div class="queue">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="desc">
-                                        <p>{{$staffs[1]->message}}</div>
-                                </div><!-- /.testimonial-content -->
-                            </div>
-
-                        <div class="testimonial-item style1">
-                            <div class="testimonial-image">
-                                <img src="uploads/{{ $staffs[1]->image }}" alt="{{ $staffs[1]->name }}"
-                                     style="height: 170px; width: 170px">
-                            </div>
-                            <div class="testimonial-content">
-                                <div class="info-author">
-                                    {{$staffs[1]->name}} <span>/</span> <span
-                                            class="option">{{$staffs[1]->department}}</span>
-                                </div>
-
-
-                                <div class="queue">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                </div>
-                                <div class="desc">
-                                    <p>{{$staffs[1]->message}}</div>
-                            </div><!-- /.testimonial-content -->
-                        </div>
-
-                    <!-- /.testimonial-item style1 -->
-                    </div><!-- /.owl-carousel-9 -->
-                </div><!-- /.col-md-12 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-        <div class="overlay" style="width: 100%;height: 383px;"></div>
-    </section><!-- /.flat-testimonial -->
     <!-- /.flat-about -->
     <section class="flat-row flat-news">
         <div class="container">
             <div class="row">
-                <div class="col-md-12" style="height: 100px;">
+                <div class="col-md-12" style="height: 63px;">
                     <div class="flat-row-title center">
                         <h2>Latest News and Vacancy</h2>
                     </div><!-- /.flat-row-title -->
@@ -982,7 +925,7 @@
                     @for ($i = 0; $i < sizeOf($notices); $i++)
                         <article class="col-sm-4 post">
                             <div class="featured-post">
-                                <a href="#" title="" class="post-image">
+                                <a title="" class="post-image">
                                     <img src="uploads/{{ $notices[$i]->image }}" alt="{{ $notices[$i]->title }}"
                                          style="width: 300px; height: 168px">
                                 </a>
@@ -1043,6 +986,74 @@
         --}}    </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.news -->
+    <section class="flat-testimonial style2 parallax parallax9">
+        <div class="container">
+
+
+            <div class="row">
+
+
+                <div class="col-md-12">
+                    <div class="owl-carousel-9">
+
+                        <!-- /.testimonial-item style1 -->
+                        <div class="testimonial-item style1">
+                            <div class="testimonial-image">
+                                <img src="uploads/{{ $staffs[0]->image }}" alt="{{ $staffs[0]->name }}"
+                                     style="height: 170px; width: 170px">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="info-author">
+                                    {{$staffs[0]->name}} <span>/</span> <span
+                                            class="option">{{$staffs[0]->department}}</span>
+                                </div>
+
+
+                                <div class="queue">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                <div class="desc">
+                                    <p>{{$staffs[1]->message}}</div>
+                            </div><!-- /.testimonial-content -->
+                        </div>
+
+                        <div class="testimonial-item style1">
+                            <div class="testimonial-image">
+                                <img src="uploads/{{ $staffs[1]->image }}" alt="{{ $staffs[1]->name }}"
+                                     style="height: 170px; width: 170px">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="info-author">
+                                    {{$staffs[1]->name}} <span>/</span> <span
+                                            class="option">{{$staffs[1]->department}}</span>
+                                </div>
+
+
+                                <div class="queue">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                <div class="desc">
+                                    <p>{{$staffs[1]->message}}</div>
+                            </div><!-- /.testimonial-content -->
+                        </div>
+
+                        <!-- /.testimonial-item style1 -->
+                    </div><!-- /.owl-carousel-9 -->
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <div class="overlay" style="width: 100%;height: 383px;"></div>
+    </section><!-- /.flat-testimonial -->
+
+
     {{-- <section class="flat-row flat-partner">
          <div class="container">
              <div class="row">

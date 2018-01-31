@@ -305,7 +305,7 @@
 /* Flat About
 -------------------------------------------------------------- */
 .flat-about {
-	padding: 25px 0 50px;
+	padding: 17px 0 12px;
 	border-bottom: 0px solid #ececec;
 }
 
@@ -2811,7 +2811,7 @@ article.post.style1.v1 .featured-post {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(30, 81, 131, 0.5);
+	background: rgb(34, 34, 34);
 }
 
 .parallax .container {
@@ -2840,7 +2840,7 @@ article.post.style1.v1 .featured-post {
 }
 
 .parallax9 .overlay {
-	background: rgba(30, 81, 131, 0.9);
+rgb(34, 34, 34);
 }
 
 .parallax7 { background-image: url('../images/parallax/bg-07.jpg'); }

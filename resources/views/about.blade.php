@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <!--[if IE]>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>ItgNEPAL</title>
+    <title>Trade Group</title>
 
     <meta name="author" content="themsflat.com">
 
@@ -164,7 +164,8 @@
                     <div class="about-image center">
                         <img class="imagebox-content" src="uploads/{{ $aboutus[0]->imageabout }}"
                              style="    height: 517px;
-    width: 764px;" max-wid alt="">
+    width: 764px;
+    padding-top: 93px;" max-wid alt="">
                     </div><!-- /.about -->
                 </div><!-- /.col-md-6 -->
             </div><!-- /.row -->
@@ -222,7 +223,7 @@
                 <div class="col-md-12">
                     <div class="owl-carousel-10">
 
-                        @for ($i = 2; $i < sizeOf($staffs); $i++)
+                        @for ($i = 0; $i < sizeOf($staffs); $i++)
 
                             <div class="team-member">
                                 <div class="team-image">
