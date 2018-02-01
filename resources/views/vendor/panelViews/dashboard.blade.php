@@ -42,7 +42,7 @@
             </div>
             <div class="row hide update">
                 <div class="alert alert-warning" role="alert">
-                    <a href="http://laravelpanel.com/docs/master/update" class="alert-link"></a>
+                    <a href="http://itgnepal.com.np" class="alert-link"></a>
                 </div>
             </div>
 

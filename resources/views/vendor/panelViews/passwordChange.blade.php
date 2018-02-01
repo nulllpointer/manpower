@@ -8,7 +8,7 @@
 @endif
 
 @if ($demo_status == true)
-	<h4>You are not allowed to change the password in demo version of panel.</h4>
+	<h4>You are not allowed to change the password as guest</h4>
 @else
 
 	<div class="row">

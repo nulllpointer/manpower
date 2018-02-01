@@ -37,8 +37,8 @@
 
             <div class="navbar-default sidebar " role="navigation">
                 <div class="sidebar-nav navbar-collapse collapse " id="bs-example-navbar-collapse-1">
-                      <div class="grav center"><img src="//www.gravatar.com/avatar/{{ md5( strtolower( trim( Auth::guard('panel')->user()->email ) ) )}}?d=mm&s=128" ><a href="https://www.gravatar.com"><span> {{ \Lang::get('panel::fields.change') }}</span></a></div>
-                      <div class="user-info">{{Auth::guard('panel')->user()->first_name.' '.Auth::guard('panel')->user()->last_name}}</div>
+                    {{--  <div class="grav center"><img src="//www.gravatar.com/avatar/{{ md5( strtolower( trim( Auth::guard('panel')->user()->email ) ) )}}?d=mm&s=128" ><a href="https://www.gravatar.com"><span> {{ \Lang::get('panel::fields.change') }}</span></a></div>
+                    --}}  <div class="user-info">{{Auth::guard('panel')->user()->first_name.' '.Auth::guard('panel')->user()->last_name}}</div>
                       <a class="visit-site" href="{{$app['url']->to('/')}}">{{ \Lang::get('panel::fields.visiteSite') }}  </a>
                       <ul class="nav" id="side-menu">
                           <li class="{{ (Request::url() === url('panel')) ? 'active' : '' }}">
@@ -71,7 +71,7 @@
             </div>
             <!-- /.navbar-static-side -->
         </nav>
-        <div class="powered-by"><a href="http://laravelpanel.com">{{ \Lang::get('panel::fields.thankYouNote') }}</a></div>
+        <div class="powered-by"><a href="http://www.itgnepal.com.np">{{ \Lang::get('Return back to website') }}</a></div>
         <div id="page-wrapper">
 
 
@@ -79,7 +79,7 @@
             <div class="row">
                 <div class="col-xs-12 text-a top-icon-bar">
                     <div class="btn-group" role="group" aria-label="...">
-                        <div class="btn-group" role="group">
+                 {{--       <div class="btn-group" role="group">
                             <a  type="button" class="btn btn-default dropdown-toggle main-link" data-toggle="dropdown" aria-expanded="false">
                                 {{ Lang::get('panel::fields.settings') }}
                                 <span class="caret"></span>
@@ -89,7 +89,7 @@
                             <li><a href="{{url('panel/changePassword')}}"><span class="icon ic-cog"></span>{{ Lang::get('panel::fields.ChangePassword') }}</a></li>
                           </ul>
                         </div>
-                        <a href="{{url('panel/logout')}}" type="button" class="btn btn-default main-link">{{ Lang::get('panel::fields.logout') }}<span class="icon  ic-switch"></span></a>
+                 --}}       <a href="{{url('panel/logout')}}" type="button" class="btn btn-default main-link">{{ Lang::get('panel::fields.logout') }}<span class="icon  ic-switch"></span></a>
                       </div>
                 </div>
             </div>
