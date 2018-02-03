@@ -44,14 +44,14 @@
     </div><!-- /.container -->
 </section><!-- /.header-top -->
 
-<header id="header" class="header" style="height: 80.4px; width: 100%;">
+<header id="header" class="header" >
     <div class="container">
         <div class="row">
-            <div class="col-md-12" style="height: 80.4px;
-                 width: auto;">
+            <div class="col-md-12">
                 <div id="logo" title="itgnepal">
                     <a href="/index" title="logo corpbusiness">
-                        <img class=" col-md-6 col-sm-3 col-xs-4" src="uploads/{{ $aboutus[0]->logo }}" alt="">
+                        <img class=" col-md-6 col-sm-3 col-xs-4" src="uploads/{{ $aboutus[0]->logo }}" alt="" style="    object-fit: cover;
+    width: auto;">
                     </a>
                 </div><!-- /#logo -->
                 <div class="btn-menu">
