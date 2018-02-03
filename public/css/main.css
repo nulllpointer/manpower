@@ -193,7 +193,7 @@ iframe {
 }
 
 .wrap-contact100 {
-  width: 59%;
+  width: 80%;
   background: #f9f0f1;
   overflow: hidden;
   display: -webkit-box;
@@ -280,7 +280,9 @@ iframe {
 }
 
 .label-input100 {
+  /*
   font-family: Poppins-Regular;
+  */
   font-size: 12px;
   color: #555555;
   line-height: 1.5;
@@ -315,6 +317,7 @@ iframe {
 
 input.input100 {
   height: 55px;
+  font-size: 12px;
 }
 
 

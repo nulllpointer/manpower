@@ -10,9 +10,26 @@
     <meta charset="UTF-8">
     <!--[if IE]>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Trade Group</title>
 
-    <meta name="author" content="themsflat.com">
+    <link rel="icon" sizes="16x16" href="images/itgnepallogo.png">
+    <meta name="Yubraj Basnet" content="International Trade Link">
+
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>International Trade Group</title>
+
+
+    {{--Google Search Optimization--}}
+
+    <meta name="description" content="International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal.
+                                This company is registered under Nepal Government, Ministry of Labour. (No.
+                                706/064/065). Till now our Company has been successful to satisfy the demands of many
+                                Gulf countries in the Middle East for their manpower requirement.Manpower in Nepal. Send manpower to Qatar,Dubai,Kuwait,Saudi.Manpower,Recruiting agency, Manpower training orintation, Staffing services
+" />
+
+    <meta name="google" content="nositelinkssearchbox" />
+
+
+
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -119,11 +136,11 @@
                             </div><!-- /.desc -->
 
 
-                            <div class="image-planning">
+                          {{--  <div class="image-planning">
                                 <img src="images/page/trainingprog.png" style="height: 239px;width: 766px">
 
                             </div>
-
+--}}
 
                         </div>
 
@@ -261,8 +278,9 @@
 
                         <div class="tab-item">
                             <div class="desc">
+                                <br>
                                 <p>Once Contract signing with the employee is done, travel arrangement becomes the final
-                                    procedure. For convenience to the employee and the employer, WWM makes complete
+                                    procedure. For convenience to the employee and the employer, ITGNEPAL makes complete
                                     travel arrangements. Tickets, VISA and various travel assistance for mobilization
                                     and demobilization of personnel from home country to the remote region is handled by
                                     us.</p>
@@ -277,18 +295,18 @@
                             </div><!-- /.desc -->
 
 
-                            <div class="image-planning">
+                           {{-- <div class="image-planning">
                                 <img src="images/page/travel.jpg" style="height: 239px;width: 766px">
 
                             </div>
-
+--}}
 
                         </div>
 
                         <div class="tab-item">
                             <div class="desc">
                                 <p>
-                                <h2>Why to Recruit from Nepal</h2>
+                                <h2>Time spent on hiring is time well spent.</h2>
                                 <br>
                                 Over the past years, an increasing number of employers especially from the Middle East
                                 and East Asian Countries, have shown interest in hiring Nepalese workers and many of
@@ -337,18 +355,18 @@
 
                             </div>
 
-                            <div class="image-planning">
+                          {{--  <div class="image-planning">
                                 <img src="images/page/whyrecruitfromnepal.jpg" style="height: 239px;width: 766px">
 
                             </div>
-
+--}}
 
                         </div>
 
                         <div class="tab-item">
                             <div class="desc">
                                 <p>There are golden opportunities to become a professional for semi skilled workers via
-                                    ITL Nepal Pvt. Ltd. because we have vacancies to take aboard for those workers who
+                                    ITG Nepal Pvt. Ltd. because we have vacancies to take aboard for those workers who
                                     are semi skilled as below:
                                 </p>
 
@@ -377,12 +395,12 @@
                             </div><!-- /.desc -->
 
 
-                            <div class="image-planning">
+                          {{--  <div class="image-planning">
                                 <img src="images/page/semiskill.jpg" style="height: 463px;width: 532px">
 
                             </div>
 
-
+--}}
                         </div>
 
                         <div class="tab-item">
@@ -412,11 +430,11 @@
                             </div><!-- /.desc -->
 
 
-                            <div class="image-planning">
+                          {{--  <div class="image-planning">
                                 <img src="images/page/semiskilled.jpg" style="    padding-bottom: 143px;">
 
                             </div>
-
+--}}
 
                         </div>
 
@@ -459,11 +477,11 @@
                             </div><!-- /.desc -->
 
 
-                            <div class="image-planning">
+                          {{--  <div class="image-planning">
                                 <img src="images/page/SkilledWorkers.png" style="height: 361px;width: 329px;">
 
                             </div>
-
+--}}
 
                         </div>
 

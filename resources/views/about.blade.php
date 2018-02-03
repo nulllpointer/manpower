@@ -10,9 +10,29 @@
     <meta charset="UTF-8">
     <!--[if IE]>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Trade Group</title>
 
-    <meta name="author" content="themsflat.com">
+    <link rel="icon" sizes="16x16" href="images/itgnepallogo.png">
+
+
+    <meta name="Yubraj Basnet" content="International Trade Link">
+
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>International Trade Group</title>
+
+
+    {{--Google Search Optimization--}}
+
+    <meta name="description" content="International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal.
+                                This company is registered under Nepal Government, Ministry of Labour. (No.
+                                706/064/065). Till now our Company has been successful to satisfy the demands of many
+                                Gulf countries in the Middle East for their manpower requirement.Manpower in Nepal. Send manpower to Qatar,Dubai,Kuwait,Saudi.Manpower,Recruiting agency, Manpower training orintation, Staffing services
+" />
+
+    <meta name="google" content="nositelinkssearchbox" />
+
+
+
+
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -63,18 +83,20 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="about style2">
-                        <div class="about-title flat-row-title left">
-                            <h2>International Trade Group Pvt Ltd</h2>
+                        <div class="flat-row-title left">
+                            <h2>About us</h2>
                         </div>
                         <div class="tab-about">
                             <ul class="tab-list">
-                                <li class="active">Mission</li>
-                                <li>Vision</li>
-                                <li>Core Values</li>
+                                <li id="main">Who are we</li>
+                                <li>Our Goal</li>
+                                <li>Our Values</li>
 
                             </ul>
                             <div class="tab-content">
                                 <div class="about-content">
+                                    We are a registered manpower recruiting agency from Nepal. We fulfill labour demands
+                                    of many Gulf countries.
                                     Our mission is to provide our
                                     clients and candidates with excellent recruitment services based on mutual
                                     trust and the highest professional standards driven by quality and cost
@@ -83,11 +105,10 @@
                                     clients
                                     so that they can acquire gifted work force that will benefit their organization in
                                     every
-                                    way possible We always look for cooperation for the
-                                    supply of Nepalese manpower force to various countries. This will definitely
+                                    way possible . This will definitely
                                     strengthen the bridge between potential job seekers and generous employers and
                                     would also enhance our national development scheme.
-<br>
+                                    <br>
                                     We are committed to connecting great companies with great employees and opening up
                                     opportunities for both by providing the highest quality of outsourced employment and
                                     human resource services. Success for our customers is reached by empowering them to
@@ -98,7 +119,7 @@
                                     </div>
                                 </div><!-- /.about-content -->
                                 <div class="about-content">
-                                    <p>Our vision is to legally generate equal
+                                    <p>Our goal is to legally generate equal
                                         employment opportunities to various categories of labour force and professional
                                         personnel to overseas countries. We, in this organization, make all efforts to
                                         keep in touch with workers from the time of sending them abroad until their
@@ -215,7 +236,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="flat-row-title left">
-                        <h2>Our Team</h2>
+                        <h2>Your Support Team</h2>
                     </div>
                 </div>
             </div>
@@ -234,23 +255,23 @@
                                     <div class="option" style="font-size: 22px">
                                         {{ $staffs[$i]->name }}/{{ $staffs[$i]->department }}
                                     </div>
-                                    {{--<ul class="social">
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-google" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        --}}{{--  <li>
-                                              <a href="#">
-                                                  <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                                              </a>
-                                          </li>--}}{{--
-                                    </ul>--}}<!-- /.social -->
+                                {{--<ul class="social">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-google" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    --}}{{--  <li>
+                                          <a href="#">
+                                              <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                          </a>
+                                      </li>--}}{{--
+                                </ul>--}}<!-- /.social -->
                                 </div><!-- /.team-content -->
                             </div>
                     @endfor<!-- /.team-member -->
@@ -272,6 +293,14 @@
 </div>
 
 <!-- Javascript -->
+
+<script>
+    $(document).ready(function () {
+        $('#main').addClass('active');
+        // $('a[href="' + location.pathname + '"]').closest('li').addClass('active');
+    });
+</script>
+
 <script type="text/javascript" src="javascript/jquery.min.js"></script>
 <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
 <script type="text/javascript" src="javascript/waypoints.min.js"></script>

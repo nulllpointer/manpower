@@ -162,7 +162,7 @@ iframe {
 /*==================================================================
 [ Size ]*/
 .size1 {
-  width: 355px;
+  width: 375px;
   max-width: 100%;
 }
 
@@ -303,8 +303,8 @@ iframe {
   display: block;
   width: 100%;
   background: transparent;
-  font-family: Poppins-Regular;
-  font-size: 13px;
+ /* font-family: Poppins-Regular;*/
+  /*font-size: 13px;*/
   color: #666666;
   line-height: 1.2;
   padding: 0 25px;
@@ -312,6 +312,7 @@ iframe {
 
 input.input100 {
   height: 55px;
+  font-size: 12px;
 }
 
 

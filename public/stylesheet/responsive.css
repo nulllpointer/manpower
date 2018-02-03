@@ -376,7 +376,7 @@
 
 	.flat-testimonial.style2.parallax9 {
 		height: auto;
-		padding: 50px 0;
+		padding: 16px 0;
 	}
 
 	.widget {
@@ -534,10 +534,18 @@
 	.menu-extra > div.box-search .top-search {
 		width: 220px;
 	}
-
+	.footer_logo
+	{
+		width: 100px;
+		height: 100px;
+	}
 
 }
 
 @media (max-width: 320px) {	
-	
+	.footer_logo
+	{
+		width: 100px;
+		height: 100px;
+	}
 }

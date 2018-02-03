@@ -3,12 +3,35 @@
 
 <!-- Mirrored from envytheme.com/demo/pet-clinic/gallery-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Jan 2018 19:41:02 GMT -->
 <head>
+
+
+    <meta name="Yubraj Basnet" content="International Trade Link">
+
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>International Trade Group</title>
+
+
+    {{--Google Search Optimization--}}
+
+    <meta name="description" content="International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal.
+                                This company is registered under Nepal Government, Ministry of Labour. (No.
+                                706/064/065). Till now our Company has been successful to satisfy the demands of many
+                                Gulf countries in the Middle East for their manpower requirement.Manpower in Nepal. Send manpower to Qatar,Dubai,Kuwait,Saudi.Manpower,Recruiting agency, Manpower training orintation, Staffing services
+" />
+
+    <meta name="google" content="nositelinkssearchbox" />
+
+
+
+
+
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ItgNEPAL</title>
     <!-- Favicon -->
-    <link rel="icon" sizes="16x16" href="assets/img/favicon-icon.png">
+    <link rel="icon" sizes="16x16" href="images/itgnepallogo.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Font-awesome CSS -->
@@ -167,75 +190,71 @@
     <!-- End SearchBox Modal -->
 
     <div class="page-title parallax parallax7">
-        <div class="overlay"></div>
         <div class="title-heading">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="page-title-heading">
-                            <h1>Company Legal Documents</h1>
-                        </div>
-                        {{--<div class="breadcrumbs">
-                            <ul>
-                                <li><a href="#" title="">Home</a></li>
-                                <li>About Us</li>
-                            </ul>
-                        </div>--}}
-                    </div>
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.title-heading -->
-    </div><!-- /.page-title -->
 
-
-    <!-- Start Services Area -->
-    <div class="content-block-area">
-        <div class="container">
             <div class="row">
-
-                @for ($i = 0; $i < sizeOf($documents); $i++)
-
-                    <div class=" gallery-boxed">
-
-                        <div class="gallery-item-one col-md-4 col-sm-6">
-                            <div class="pic">
-                                <img src="uploads/{{ $documents[$i]->doc_url }}"
-                                     alt="{{ $documents[$i]->caption_heading }}" style="height: 200px;">
-                                <ul class="lightbox-link">
-                                    <li><a class="lightbox" href="uploads/{{ $documents[$i]->doc_url }}"><i
-                                                    class="fa fa-plus"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="gallery-content">
-                                <h3 class="title">{{$documents[$i]->caption_heading}}</h3>
-                                {{--<span class="post" style=" background-color: #446d9f;
-   ">{{$documents[$i]->caption_heading}}</span>--}}
-                            </div>
-                          {{--  <div class="gallery-content">
-                                <h3 class="title">Behavior Counseling</h3>
-                                <span class="post">Lorem Ipsum</span>
-                            </div>--}}
-                        </div>
-
-                    </div>
-                @endfor
-
-
-                <div class="col-md-12 text-center">
-                    <a href="#" id="loadmore" class="btn theme-btn">view more</a>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h1><b>Company Legal Documents</b></h1>
                 </div>
+                {{--<div class="breadcrumbs">
+                    <ul>
+                        <li><a href="#" title="">Home</a></li>
+                        <li>About Us</li>
+                    </ul>
+                </div>--}}
+            </div>
+        </div><!-- /.row -->
+    </div><!-- /.title-heading -->
+</div><!-- /.page-title -->
+
+
+<!-- Start Services Area -->
+<div class="content-block-area">
+    <div class="container">
+        <div class="row">
+
+            @for ($i = 0; $i < sizeOf($documents); $i++)
+
+                <div class=" gallery-boxed">
+
+                    <div class="gallery-item-one col-md-4 col-sm-6">
+                        <div class="pic">
+                            <img src="uploads/{{ $documents[$i]->doc_url }}"
+                                 alt="{{ $documents[$i]->caption_heading }}" style="height: 200px;">
+                            <ul class="lightbox-link">
+                                <li><a class="lightbox" href="uploads/{{ $documents[$i]->doc_url }}"><i
+                                                class="fa fa-plus"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="gallery-content">
+                            <h3 class="title">{{$documents[$i]->caption_heading}}</h3>
+                            {{--<span class="post" style=" background-color: #446d9f;
+">{{$documents[$i]->caption_heading}}</span>--}}
+                        </div>
+                        {{--  <div class="gallery-content">
+                              <h3 class="title">Behavior Counseling</h3>
+                              <span class="post">Lorem Ipsum</span>
+                          </div>--}}
+                    </div>
+
+                </div>
+            @endfor
+
+
+            <div class="col-md-12 text-center">
+                <a href="#" id="loadmore" class="btn theme-btn">view more</a>
             </div>
         </div>
-
     </div>
-    <!-- End Services Area -->
+
+</div>
+<!-- End Services Area -->
 
 
 @extends('partials.footer')
 <!-- Back Top top -->
-    <a href="#content" class="back-to-top">Top</a>
-    <!-- End Back Top top -->
+<!-- End Back Top top -->
 
 
 </div>
@@ -271,9 +290,7 @@
 <!-- Parsley JS -->
 <script src="assets/js/parsley.min.js"></script>
 <!-- jQuery Google Map JS file -->
-<script src="assets/js/jquery.googlemap.js"></script>
 <!-- Google Map api -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0jIY1DdGJ7yWZrPDmhCiupu_K2En_4HY"></script>
 <!-- Custom JS file -->
 <script src="assets/js/active.js"></script>
 <script type="text/javascript" src="javascript/jquery.min.js"></script>

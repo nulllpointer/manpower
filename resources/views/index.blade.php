@@ -8,14 +8,32 @@
     <!-- Basic Page Needs -->
     <meta charset="UTF-8">
     <!--[if IE]>
+    <meta name="Yubraj Basnet" content="International Trade Link">
+
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Trade Group</title>
+    <title>International Trade Group</title>
+
+
+    {{--Google Search Optimization--}}
+
+    <meta name="description" content="International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal.
+                                This company is registered under Nepal Government, Ministry of Labour. (No.
+                                706/064/065). Till now our Company has been successful to satisfy the demands of many
+                                Gulf countries in the Middle East for their manpower requirement.Manpower in Nepal. Send manpower to Qatar,Dubai,Kuwait,Saudi.Manpower,Recruiting agency, Manpower training orintation, Staffing services
+" />
+
+    <meta name="google" content="nositelinkssearchbox" />
+
 
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Boostrap style -->
+
+    <link rel="icon" sizes="16x16" href="images/itgnepallogo.png">
+
+
     <link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.min.css">
 
     <!-- REVOLUTION LAYERS STYLES -->
@@ -269,7 +287,7 @@
                         data-param10="" data-description="">
 
                         <!-- MAIN IMAGE -->
-                        <img src="uploads/{{ $aboutus[0]->title2 }}" alt="" data-bgposition="center center"
+                        <img src="uploads/{{ $aboutus[0]->title1 }}" alt="" data-bgposition="center center"
                              data-kenburns="off"
                              data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
                              data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0"
@@ -298,8 +316,8 @@
                              data-paddingbottom="[0,0,0,0"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 16; white-space: nowrap;text-transform:left;"><span>INTERNATIONAL  </span>
-                            TRADE GROUP NEPAL
+                             style="z-index: 16; white-space: nowrap;text-transform:left;">INTERNATIONAL  <span>TRADE
+                            </span>GROUP
 
                         </div>
 
@@ -324,15 +342,10 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 17; line-height: 27px; letter-spacing: 0.3px; white-space: normal;text-transform:left;">
-                            <br>
-                            <br>
+                             style="z-index: 17; letter-spacing: 0.3px; white-space: normal;text-transform:left;">
 
-                            International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal. This
-                            company is registered under Nepal Government, Ministry of Labour. (No. 706/064/065).Till now
-                            our Company has been successful to satisfy the demands of many Gulf countries in the Middle
-                            East for their manpower requirement.
-                        </div>
+                      {{--      A Professional Recruitment Agency
+                      --}}  </div>
 
                         <div class="center">
                             <a href="/about" target="_self" class="tp-caption flat-button-slider bg-blue"
@@ -372,7 +385,7 @@
                         data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
                         data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="uploads/{{ $aboutus[0]->title1 }}" alt="" data-bgposition="center center"
+                        <img src="uploads/{{ $aboutus[0]->title2 }}" alt="" data-bgposition="center center"
                              data-bgfit="cover"
                              data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         <div class="overlay"></div>
@@ -400,8 +413,7 @@
                              data-paddingbottom="[0,0,0,0"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 16; white-space: nowrap;text-transform:left;"><span>CREATIVE</span> &
-                            PROFESSIONAL
+                             style="z-index: 16; white-space: nowrap;text-transform:left;">Recruitment<span> and </span> Staffing <span>Solutions</span>
                         </div>
 
                         <!-- LAYER NR. 13 -->
@@ -424,15 +436,9 @@
                              data-textAlign="['center','center','center','center']"
 
                              style="z-index: 17; white-space: nowrap;text-transform:left;">
-                            <br>
-                            <br>
 
-                            The Company can provide
-                            skilled, semiskilled and unskilled labours according to the needs of the employing
-                            countries. The motto of this Company is to give the best and prompt service to the employer.
-                            The workers available in this recruiting institution are advised to be well behaved and obey
-                            the existing rules and regulations of the employing countries.
-                        </div>
+                       {{--     A manpower agency that complies with all laws and regulations
+                       --}}                     </div>
 
                         <a href="/blog" target="_self" class="tp-caption flat-button-slider"
 
@@ -696,11 +702,16 @@
                             <h2>Why choose us?</h2>
                         </div>
                         <div class="about-content">
-                            <p>It seems that every recruitment agency claims to be “the leading recruitment specialist”
+                            <p>International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal.
+                                This company is registered under Nepal Government, Ministry of Labour. (No.
+                                706/064/065). Till now our Company has been successful to satisfy the demands of many
+                                Gulf countries in the Middle East for their manpower requirement.
+<br>
+                                It seems that every recruitment agency claims to be “the leading recruitment specialist”
                                 in their sector. They say they have more experience than anyone else, they care the most
                                 about their clients and candidates plus, of course, they have the biggest database.
 
-                                We think differently at bluemonday. We believe good recruitment is not just about using
+                                We think differently at itgnepal. We believe good recruitment is not just about using
                                 databases and technology, but also about connecting people with people, matching skills
                                 accurately and getting the culture fit exactly right, every time. We believe the best
                                 recruitment consultants must have sensitivity, sector experience and an intuitive
@@ -723,12 +734,12 @@
                         </div><!-- /.about-content -->
                     </div><!-- /.about -->
                 </div><!-- /.col-md-6 -->
+                <br>
                 <div class="col-md-6 col-sm-6">
                     <div class="about">
                         <div class="about-image">
-                            <img src="uploads/{{ $aboutus[0]->imagechooseus }}" alt="" style="    height: 456px;
-    padding-top: 51px;
-    padding-bottom: 64px;">
+                            <img style="width: 500px; height: 300px; object-fit: cover;"
+                                 src="uploads/{{ $aboutus[0]->imagechooseus }}" alt="">
                         </div><!-- /.about-video -->
                     </div><!-- /.about -->
                 </div><!-- /.col-md-6 -->
@@ -765,8 +776,8 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="about">
                         <div class="about-image">
-                            <img src="uploads/{{ $aboutus[0]->imagemission }}" alt=""
-                                 style="height: 444px;padding-top: 37px;padding-bottom: 64px;width: 100%;">
+                            <img style="width: 500px; height: 300px; object-fit: cover;"
+                                 src="uploads/{{ $aboutus[0]->imagemission }}" alt="">
                         </div><!-- /.about-video -->
                     </div><!-- /.about -->
                 </div><!-- /.col-md-6 -->
@@ -884,14 +895,7 @@
                                 reaching that common goal.
                                 <br>
 
-                                <b> RELATIONSHIPS & TRUST</b>
-                                <br>
-                                Thinking Long Term
-                                In this industry, we always think for the long term. We want to establish good and
-                                lasting
-                                relationships with our clients and candidates, and we believe that trust and
-                                determination
-                                are the ultimate recipe for success.
+
                             </p>
 
 
@@ -901,10 +905,18 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="about">
                         <div class="about-image">
-                            <img src="uploads/{{ $aboutus[0]->imagecorevalue }}" alt="" style="     height: 613px;
-    width: 570px;
-    padding-top: 52px;">
+                            <img style="width: 500px; height: 300px; object-fit: cover;"
+                                 src="uploads/{{ $aboutus[0]->imagecorevalue }}" alt="">
                         </div><!-- /.about-video -->
+                        <br> <br> <br> <br>
+                        <b> RELATIONSHIPS & TRUST</b>
+                        <br>
+                        Thinking Long Term
+                        In this industry, we always think for the long term. We want to establish good and
+                        lasting
+                        relationships with our clients and candidates, and we believe that trust and
+                        determination
+                        are the ultimate recipe for success.
                     </div><!-- /.about -->
                 </div><!-- /.col-md-6 -->
             </div><!-- /.row -->
@@ -914,9 +926,9 @@
     <section class="flat-row flat-news">
         <div class="container">
             <div class="row">
-                <div class="col-md-12" style="height: 63px;">
+                <div class="col-md-12" style="height: 77px;">
                     <div class="flat-row-title center">
-                        <h2>Latest News and Vacancy</h2>
+                        <h2>Demands and Notices</h2>
                     </div><!-- /.flat-row-title -->
                 </div>
             </div><!-- /.row -->
@@ -986,7 +998,7 @@
         --}}    </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.news -->
-    <section class="flat-testimonial style2 parallax parallax9">
+    <section style="background-color: #0d70b7">
         <div class="container">
 
 
@@ -1050,7 +1062,7 @@
                 </div><!-- /.col-md-12 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
-        <div class="overlay" style="width: 100%;height: 383px;"></div>
+
     </section><!-- /.flat-testimonial -->
 
 

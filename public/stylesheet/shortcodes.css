@@ -2722,7 +2722,7 @@ article.post.style1.v1 .featured-post {
 }
 
 .tab-content {
-	padding-left: 69px;
+	padding-left: 3px;
 	margin-top: -6px;
 }
 
@@ -2843,9 +2843,7 @@ article.post.style1.v1 .featured-post {
 rgb(34, 34, 34);
 }
 
-.parallax7 { background-image: url('../images/parallax/bg-07.jpg'); }
-.parallax8 { background-image: url('../images/parallax/bg-06.jpg'); }
-.parallax9 { background-image: url('../images/parallax/bg-07.jpg'); }
+
 
 /* Go top
 -------------------------------------------------------------- */

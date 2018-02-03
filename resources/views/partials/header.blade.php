@@ -6,14 +6,16 @@
     });
 </script>
 
-
 <section class="header-top">
+
+
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <ul class="flat-infomation">
-                    <li class="phone">Call us: <a href="#" title="">{{$aboutus[0]->mobile}}</a></li>
-                    <li class="email">Email: <a href="#" title="">{{$aboutus[0]->email}}</a></li>
+                    <li class="phone">Call us: <a  title="">{{$aboutus[0]->mobile}}</a></li>
+                    <li class="email">Email: <a  title="">{{$aboutus[0]->email}}</a></li>
                 </ul><!-- /.flat-infomation -->
                 <ul class="flat-social">
                     <li>
@@ -46,22 +48,20 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12" style="height: 80.4px;
-                 width: 1236px;">
-                 <div id="logo" class="logo">
-                     <a href="/index" title="">
-                         <img src="uploads/{{ $aboutus[0]->logo }}" alt="ITGNEPAL" style="height: 90px; width: 127px"/>
-                     </a>
-                 </div><!-- /#logo -->
+                 width: auto;">
+                <div id="logo" title="itgnepal">
+                    <a href="/index" title="logo corpbusiness">
+                        <img class=" col-md-6 col-sm-3 col-xs-4" src="uploads/{{ $aboutus[0]->logo }}" alt="">
+                    </a>
+                </div><!-- /#logo -->
                 <div class="btn-menu">
                     <span>a</span>
                 </div><!-- //mobile menu button -->
                 <div class="menu-extra">
                    {{-- <div class="box-search">
-								<span>
-									<i class="fa fa-search" aria-hidden="true"></i>
-								</span>
-                        <div class="top-search">
-                         --}}{{--   <form action="#" method="get" accept-charset="utf-8">
+
+                        <div>
+                            --}}{{--<form action="#" method="get" accept-charset="utf-8">
                                 <div class="input-search">
                                     <input type="text" name="search">
                                     <button class="button"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -73,8 +73,8 @@
                         <span><i class="fa fa-bars" aria-hidden="true"></i></span>
                     </div>
                 </div><!-- /.menu-extra -->
-                <div class="nav-wrap">
-                    <nav id="mainnav" class="mainnav">
+                <div class="nav-wrap" >
+                    <nav id="mainnav" class="mainnav" >
                         <ul class="menu">
                             <li class="active">
                                 <a href="/index" title="">Home</a>
@@ -99,7 +99,7 @@
                             </li>
 
                             <li>
-                                <a href="/blog" title="">News </a>
+                                <a href="/blog" title="">Demands and Notices</a>
                             </li>
                             <li>
                                 <a href="/contact" title="">Contact</a>
@@ -120,7 +120,7 @@
     <span class="delete">x</span>
     <div class="logo-canvas">
         <a href="#">
-            <img src="uploads/{{ $aboutus[0]->logo }}" alt="" style="    height: 190px;
+            <img src="uploads/{{ $aboutus[0]->logo }}" alt="itgnepal" style="    height: 190px;
     width: 413px;">
         </a>
     </div><!-- /.logo-canvas -->

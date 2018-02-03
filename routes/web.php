@@ -45,7 +45,14 @@ Route::get('/blog', function () {
     $notices = \App\notices::get();
     $staffs = \App\staffs::get();
 
+
+
+
     return view('blog', ['aboutus' => $aboutus, 'notices' => $notices]);
+
+
+
+
 
 });
 
@@ -109,8 +116,8 @@ Route::get('/sendform', function (\Illuminate\Http\Request $request) {
     $data = array('firstname' => "$firstname", 'lastname' => "$lastname", 'mobile' => "$mobile", 'body' => "$body");
 
     Mail::send(['text' => 'mail'], $data, function ($message) use ($email) {
-        $message->to('hitesh.jha415@gmail.com')->subject
-        ('Email from ITGNEPAL');
+        $message->to('contact@alfrescorestro.com')->subject
+        ('Message from itgnepal');
         $message->from($email);
 
     });

@@ -10,14 +10,33 @@
     <meta charset="UTF-8">
     <!--[if IE]>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Trade Group</title>
 
-    <meta name="author" content="themsflat.com">
+    <meta name="Yubraj Basnet" content="International Trade Link">
+
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>International Trade Group</title>
+
+
+    {{--Google Search Optimization--}}
+
+    <meta name="description" content="International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal.
+                                This company is registered under Nepal Government, Ministry of Labour. (No.
+                                706/064/065). Till now our Company has been successful to satisfy the demands of many
+                                Gulf countries in the Middle East for their manpower requirement.Manpower in Nepal. Send manpower to Qatar,Dubai,Kuwait,Saudi.Manpower,Recruiting agency, Manpower training orintation, Staffing services
+" />
+
+    <meta name="google" content="nositelinkssearchbox" />
+
+
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Boostrap style -->
+
+    <link rel="icon" sizes="16x16" href="images/itgnepallogo.png">
+
+
     <link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.min.css">
 
     <!-- Theme style -->
@@ -174,16 +193,16 @@
                         <span class="focus-input100"></span>
                     </div>
 
-                    <label class="label-input100" for="email">Enter your email *</label>
+                    <label class="label-input100" for="email">Enter your email*</label>
                     <div class="wrap-input100 validate-input" data-validate="Valid email required">
-                        <input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
+                        <input id="email" class="input100" type="text" name="email" placeholder="yourid@xyz.com">
                         <span class="focus-input100"></span>
                     </div>
 
-                    <label class="label-input100" for="mobile">Enter phone number</label>
+                    <label class="label-input100" for="mobile">Enter phone number*</label>
                     <div class="wrap-input100">
                         <input id="phone" data-validate="Number is required" class="input100" type="text" name="mobile"
-                               placeholder="Eg. +1 800 000000">
+                               placeholder="+977-1-4444444">
                         <span class="focus-input100"></span>
                     </div>
 
@@ -210,7 +229,7 @@
 --}}
                         <div class="flex-col size2">
 						<span class="txt1 p-b-20">
-							International Trade Group Nepal Pvt Ltd
+							International Trade Group Pvt Ltd, Kathmandu, Nepal
 						</span>
 
                             {{-- <span class="txt2">
@@ -225,12 +244,12 @@
                             <span class="lnr lnr-map-marker"></span>
                         </div>
 
-                        <div class="flex-col size2">
-						<span class="txt1 p-b-20">
-							Address
-						</span>
 
-                            <span class="txt2">
+                        <div class="flex-col size2">
+
+
+                            <span class="txt3">
+
 							{{$aboutus[0]->address}}
 						</span>
                         </div>
@@ -242,31 +261,25 @@
                         </div>
 
                         <div class="flex-col size2">
-						<span class="txt1 p-b-20">
-							Lets Talk
-						</span>
 
                             <span class="txt3">
 							{{$aboutus[0]->mobile}}
 						</span>
                         </div>
                     </div>
-
                     <div class="dis-flex size1 p-b-47">
                         <div class="txt1 p-r-25">
                             <span class="lnr lnr-envelope"></span>
                         </div>
 
                         <div class="flex-col size2">
-						<span class="txt1 p-b-20">
-							General Support
-						</span>
 
                             <span class="txt3">
 							{{$aboutus[0]->email}}
 						</span>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -295,7 +308,7 @@
         }
     </script>
     <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHtWltCIolOgzpMEfi_GVZZHCkrXH10SM&callback=initMap">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHtWltCIolOgzpMEfi_GVZZHCkrXH10SM&amp;region=GB&callback=initMap">
     </script>
 
 
@@ -313,9 +326,6 @@
 <script type="text/javascript" src="javascript/easing.js"></script>
 <script type="text/javascript" src="javascript/owl.carousel.js"></script>
 
-<script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHtWltCIolOgzpMEfi_GVZZHCkrXH10SM&amp;region=GB"></script>
-<script type="text/javascript" src="javascript/gmap3.min.js"></script>
 <script type="text/javascript" src="javascript/main.js"></script>
 
 {{--<script src="vendor/jquery/jquery-3.2.1.min.js"></script>

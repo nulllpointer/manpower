@@ -10,9 +10,24 @@
     <meta charset="UTF-8">
     <!--[if IE]>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Trade Group</title>
 
-    <meta name="author" content="themsflat.com">
+    <meta name="Yubraj Basnet" content="International Trade Link">
+
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>International Trade Group</title>
+
+
+    {{--Google Search Optimization--}}
+
+    <meta name="description" content="International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal.
+                                This company is registered under Nepal Government, Ministry of Labour. (No.
+                                706/064/065). Till now our Company has been successful to satisfy the demands of many
+                                Gulf countries in the Middle East for their manpower requirement.Manpower in Nepal. Send manpower to Qatar,Dubai,Kuwait,Saudi.Manpower,Recruiting agency, Manpower training orintation, Staffing services
+" />
+
+    <meta name="google" content="nositelinkssearchbox" />
+
+
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -36,27 +51,18 @@
 
     @include('partials.header')
 
-    <div class="page-title parallax parallax7">
-        <div class="overlay"></div>
+   {{-- <div class="page-title parallax parallax7">
         <div class="title-heading">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="page-title-heading">
-                            <h1>Vacancy and Notices</h1>
-                        </div>
-                        {{-- <div class="breadcrumbs">
-                             <ul>
-                                 <li><a href="#" title="">Home</a></li>
-                                 <li>Vacancy and Notices</li>
-                             </ul>
-                         </div>--}}
-                    </div>
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.title-heading -->
-    </div><!-- /.page-title -->
 
+          --}}{{--  <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h1><b>Vacancy and Notices</b></h1>
+                </div>
+
+            </div>--}}{{--
+        </div><!-- /.row -->
+    </div><!-- /.title-heading -->
+--}}
     <section class="main-content">
         <div class="container">
             <div class="row">
@@ -68,12 +74,13 @@
 
                             <article class="main-post" id="{{$i}}">
                                 <div class="featured-post">
-                                    <img src="uploads/{{ $notices[$i]->image }}" alt="{{ $notices[$i]->title }}"
+                                    <img style="width: 500px; height: 300px; object-fit: cover;" src="uploads/{{ $notices[$i]->image }}" alt="{{ $notices[$i]->title }}"
                                          style="height: 470px; width: 770px"/>
-                                    <ul class="post-date">
+                                    <br><br>
+                                    <div class="row">
                                         {{--<li class="day">Posted on</li>
-                                       --}} <li class="month">{{ date('d,F,Y', strtotime($notices[$i]->created_at)) }}</li>
-                                    </ul>
+                                       --}} &nbsp; &nbsp;&nbsp;<span class="month"><b>   Posted On :{{ date('d,F,Y', strtotime($notices[$i]->created_at)) }}</b></span>
+                                    </div>
                                     <!-- /.entry-meta -->
                                 </div><!-- /.featured-post -->
                                 <div class="entry-post-title">
@@ -118,7 +125,7 @@
                  --}}
 
                         <div class=" widget widget-categories">
-                            <h4 class="widget-title" style="color: #255577;">Notices and Demands</h4>
+                            <h4 class="widget-title" style="color: #255577;">INDEX</h4>
                             <ul>
 
                                 @for ($i = 0; $i < sizeOf($notices); $i++)
