@@ -113,14 +113,17 @@ Route::get('/sendform', function (\Illuminate\Http\Request $request) {
     $email = $request->email;
 
 
-    $data = array('firstname' => "$firstname", 'lastname' => "$lastname", 'mobile' => "$mobile", 'body' => "$body");
+    $data = array('firstname' => "$firstname", 'lastname' => "$lastname", 'mobile' => "$mobile", 'body' => "$body", 'email' => "$email");
 
     Mail::send(['text' => 'mail'], $data, function ($message) use ($email) {
-        $message->to('contact@alfrescorestro.com')->subject
+        $message->to('contact@itgnepal.com.np')->subject
         ('Message from itgnepal');
         $message->from($email);
 
     });
+
+
+
 
     echo "Email Sent.Thank you for contacting International Trade Group Nepal. We shall get back to you at the earliest";
 

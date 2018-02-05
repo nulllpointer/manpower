@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'mail.alfrescorestro.com'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'port' => env('MAIL_PORT', 465),
+    'port' => env('MAIL_PORT', 587),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,13 +56,13 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'hitesh.jha415@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'admin'),
     ],
 
     /*
     |--------------------------------------------------------------------------
-    | E-Mail Encryption Protocolalfrescorestro
+    | E-Mail Encryption Protocol
     |--------------------------------------------------------------------------
     |
     | Here you may specify the encryption protocol that should be used when
@@ -71,7 +71,7 @@ return [
     |
     */
 
-    'encryption' => env('MAIL_ENCRYPTION', 'ssl'),
+    'encryption' => env('MAIL_ENCRYPTION', 'tls'),
 
     /*
     |--------------------------------------------------------------------------
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('hitesh.jha415@gmail.com'),
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('9808870920'),
 
     /*
     |--------------------------------------------------------------------------
