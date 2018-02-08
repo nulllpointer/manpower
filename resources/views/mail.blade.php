@@ -1,10 +1,13 @@
-Name:    {{ $firstname }} {{ $lastname }}
-Mobile: {{$mobile}}
+{{--
+Name:    {{ $name }} {{ $surname }}
+Mobile: {{$phone}}
 Email Id: {{$email}}
 
 Message:
 
 
-{{$body}}
+{{$message}}
 
 
+--}}
+hello
