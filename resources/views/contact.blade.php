@@ -11,7 +11,7 @@
     <!--[if IE]>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
-    <meta name="Yubraj Basnet" content="International Trade Link">
+    <meta name="Yubraj Basnet" content="International Trade Group">
 
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <title>International Trade Group</title>
@@ -175,8 +175,9 @@
 --}}
 
 
-    <div class="row">
+    {{--<div class="row" style="flex-basis: auto" >
         <div class="container-contact100">
+
             <div class="wrap-contact100">
                 <form action="/sendform" class="contact100-form validate-form" method="get">
 				<span class="contact100-form-title">
@@ -223,21 +224,20 @@
 
 
                     <div class="flex-w size1 p-b-47">
-                        {{--<div class="txt1 p-r-25">
+                        <div class="txt1 p-r-25">
                             <span class="lnr lnr-map-marker"></span>
                         </div>
---}}
+
                         <div class="flex-col size2">
 						<span class="txt1 p-b-20">
 							International Trade Group Pvt Ltd, Kathmandu, Nepal
 						</span>
 
-                            {{-- <span class="txt2">
+                             <span class="txt2">
                              At your service
-                         </span>--}}
+                         </span>
                         </div>
                     </div>
-
 
                     <div class="flex-w size1 p-b-47">
                         <div class="txt1 p-r-25">
@@ -285,6 +285,25 @@
         </div>
 
     </div>
+--}}
+
+
+    <div class="row">
+
+
+        @include('recaptcha.captchacontact')
+    </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
     <section class="flat-row map " id="flat-map">

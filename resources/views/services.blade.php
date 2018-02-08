@@ -276,44 +276,70 @@
 
                         </div>
 
+
                         <div class="tab-item">
                             <div class="desc">
-                                <br>
-                                <p>Once Contract signing with the employee is done, travel arrangement becomes the final
+                                <p> Contract signing with the employee is done, travel arrangement becomes the final
                                     procedure. For convenience to the employee and the employer, ITGNEPAL makes complete
                                     travel arrangements. Tickets, VISA and various travel assistance for mobilization
                                     and demobilization of personnel from home country to the remote region is handled by
-                                    us.</p>
+                                    us.
+
+                                </p>
 
                                 <p>Our services include handling the entire official documents: original passport, air
                                     ticket and government’s approval letter to the employee before departure. We also
                                     acquaint them with all of the traveling procedures in order to reach their
                                     destination without complexity. One is recommended to collect one’s VISA from the
                                     VISA counter in the concerned airport and to contact immigration authority for VISA
-                                    endorsement if his visa is not endorsed before departure.</p>
+                                    endorsement if his visa is not endorsed before departure. We collect information from a large number of sources (governments, airlines, airports, reservation systems, and others) and presents an intuitive display of the data we compile.
+                                </p>
 
+
+
+
+
+                                In summary our Travel and management services:
+
+                            </div><!-- /.desc -->
+                            <div class="desc">
+                                <ul class="planning-detail">
+                                    <li>We tracks flight status in near real-time for staff convenience</li>
+                                    <li>Have global coverage and contacts for many Gulf countries</li>
+                                    <li>We store information historically and analyse on-time performance rating for different airlines
+                                    </li>
+                                    <li>Help to find ideal routes to reach the destination at affordable rates
+                                    </li>
+                                    <li>In depth knowledge regarding flight transits and luggage services
+                                    </li>
+
+
+                                </ul>
+
+                                <!-- /.planning-detail -->
                             </div><!-- /.desc -->
 
 
-                           {{-- <div class="image-planning">
-                                <img src="images/page/travel.jpg" style="height: 239px;width: 766px">
+                            {{--  <div class="image-planning">
+                                  <img src="images/page/trainingprog.png" style="height: 239px;width: 766px">
 
-                            </div>
---}}
+                              </div>
+  --}}
 
                         </div>
 
                         <div class="tab-item">
                             <div class="desc">
-                                <p>
-                                <h2>Time spent on hiring is time well spent.</h2>
-                                <br>
-                                Over the past years, an increasing number of employers especially from the Middle East
-                                and East Asian Countries, have shown interest in hiring Nepalese workers and many of
-                                them have shifted their attention concerning hiring of expatriate workers from a number
-                                of their original labour supply countries to Nepal. This change is due to various
-                                reasons, some of which are:</p>
+                                <p>Over the past years, an increasing number of employers especially from the Middle East
+                                    and East Asian Countries, have shown interest in hiring Nepalese workers and many of
+                                    them have shifted their attention concerning hiring of expatriate workers from a number
+                                    of their original labour supply countries to Nepal. This change is due to various
+                                    reasons, some of which are:
 
+                                </p>
+
+                            </div><!-- /.desc -->
+                            <div class="desc">
                                 <ul class="planning-detail">
                                     <li>
                                         Nepalese workers are renowned for their hard work, loyalty and high sense of
@@ -349,19 +375,20 @@
                                     </li>
 
 
-                                    <br>
                                 </ul>
 
+                                <!-- /.planning-detail -->
+                            </div><!-- /.desc -->
 
-                            </div>
 
-                          {{--  <div class="image-planning">
-                                <img src="images/page/whyrecruitfromnepal.jpg" style="height: 239px;width: 766px">
+                            {{--  <div class="image-planning">
+                                  <img src="images/page/trainingprog.png" style="height: 239px;width: 766px">
 
-                            </div>
---}}
+                              </div>
+  --}}
 
                         </div>
+
 
                         <div class="tab-item">
                             <div class="desc">

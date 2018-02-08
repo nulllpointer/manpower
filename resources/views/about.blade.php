@@ -90,7 +90,7 @@
                             <ul class="tab-list">
                                 <li id="main">Who are we</li>
                                 <li>Our Goal</li>
-                                <li>Our Values</li>
+                                <li id="corevalue">Our Values</li>
 
                             </ul>
                             <div class="tab-content">
@@ -112,7 +112,10 @@
                                     We are committed to connecting great companies with great employees and opening up
                                     opportunities for both by providing the highest quality of outsourced employment and
                                     human resource services. Success for our customers is reached by empowering them to
-                                    focus on what they do best.
+                                    focus on what they do best.We believe the best
+                                    recruitment consultants must have sensitivity, sector experience and an intuitive
+                                    understanding of their role in the recruitment process
+
 
 
                                     <div class="check-box">

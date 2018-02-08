@@ -10,7 +10,7 @@
 
 
 
-    <div class="container">
+    {{--<div class="container">
         <div class="row">
             <div class="col-md-12">
                 <ul class="flat-infomation">
@@ -28,7 +28,7 @@
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                     </li>
-                    {{--<li>
+                    --}}{{--<li>
                         <a href="#" title="">
                             <i class="fa fa-pinterest-p" aria-hidden="true"></i>
                         </a>
@@ -37,11 +37,11 @@
                         <a href="#" title="">
                             <i class="fa fa-rss" aria-hidden="true"></i>
                         </a>
-                    </li>--}}
+                    </li>--}}{{--
                 </ul><!-- /.flat-social -->
             </div><!-- /.col-md-12 -->
         </div><!-- /.row -->
-    </div><!-- /.container -->
+    </div><!-- /.container -->--}}
 </section><!-- /.header-top -->
 
 <header id="header" class="header" >
@@ -50,8 +50,11 @@
             <div class="col-md-12">
                 <div id="logo" title="itgnepal">
                     <a href="/index" title="logo corpbusiness">
-                        <img class=" col-md-6 col-sm-3 col-xs-4" src="uploads/{{ $aboutus[0]->logo }}" alt="" style="    object-fit: cover;
-    width: auto;">
+                        <img  src="uploads/{{ $aboutus[0]->logo }}" alt="itglogo" style="   height: 86px;
+    width: 254px;">
+
+
+
                     </a>
                 </div><!-- /#logo -->
                 <div class="btn-menu">
@@ -99,7 +102,7 @@
                             </li>
 
                             <li>
-                                <a href="/blog" title="">Demands and Notices</a>
+                                <a href="/blog" title="">Demands</a>
                             </li>
                             <li>
                                 <a href="/contact" title="">Contact</a>

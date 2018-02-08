@@ -20,10 +20,9 @@
                                 This company is registered under Nepal Government, Ministry of Labour. (No.
                                 706/064/065). Till now our Company has been successful to satisfy the demands of many
                                 Gulf countries in the Middle East for their manpower requirement.Manpower in Nepal. Send manpower to Qatar,Dubai,Kuwait,Saudi.Manpower,Recruiting agency, Manpower training orintation, Staffing services
-" />
+"/>
 
-    <meta name="google" content="nositelinkssearchbox" />
-
+    <meta name="google" content="nositelinkssearchbox"/>
 
 
     <!-- Mobile Specific Metas -->
@@ -316,7 +315,7 @@
                              data-paddingbottom="[0,0,0,0"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 16; white-space: nowrap;text-transform:left;">INTERNATIONAL  <span>TRADE
+                             style="z-index: 16; white-space: nowrap;text-transform:left;">INTERNATIONAL <span>TRADE
                             </span>GROUP
 
                         </div>
@@ -344,8 +343,8 @@
 
                              style="z-index: 17; letter-spacing: 0.3px; white-space: normal;text-transform:left;">
 
-                      {{--      A Professional Recruitment Agency
-                      --}}  </div>
+                            {{--      A Professional Recruitment Agency
+                            --}}  </div>
 
                         <div class="center">
                             <a href="/about" target="_self" class="tp-caption flat-button-slider bg-blue"
@@ -413,7 +412,8 @@
                              data-paddingbottom="[0,0,0,0"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 16; white-space: nowrap;text-transform:left;">Recruitment<span> and </span> Staffing <span>Solutions</span>
+                             style="z-index: 16; white-space: nowrap;text-transform:left;">Recruitment<span> and </span>
+                            Staffing <span>Solutions</span>
                         </div>
 
                         <!-- LAYER NR. 13 -->
@@ -437,8 +437,8 @@
 
                              style="z-index: 17; white-space: nowrap;text-transform:left;">
 
-                       {{--     A manpower agency that complies with all laws and regulations
-                       --}}                     </div>
+                            {{--     A manpower agency that complies with all laws and regulations
+                            --}}                     </div>
 
                         <a href="/blog" target="_self" class="tp-caption flat-button-slider"
 
@@ -448,7 +448,7 @@
                            data-y="['middle','middle','middle','middle']" data-voffset="['100','100','100','60']"
                            data-width="['200', '200', '188', '188']"
                            data-textAlign="['center','center','center','center']"
-                           data-height="['auto']">Check Demands
+                           data-height="['50']">Check Demands
                         </a><!-- END LAYER LINK
 	                    </li>  -->
                 </ul>
@@ -705,18 +705,16 @@
                             <p>International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal.
                                 This company is registered under Nepal Government, Ministry of Labour. (No.
                                 706/064/065). Till now our Company has been successful to satisfy the demands of many
-                                Gulf countries in the Middle East for their manpower requirement.
-<br>
-                                It seems that every recruitment agency claims to be “the leading recruitment specialist”
-                                in their sector. They say they have more experience than anyone else, they care the most
-                                about their clients and candidates plus, of course, they have the biggest database.
+                                Gulf countries in the Middle East for their manpower requirement.&nbsp
 
-                                We think differently at itgnepal. We believe good recruitment is not just about using
-                                databases and technology, but also about connecting people with people, matching skills
-                                accurately and getting the culture fit exactly right, every time. We believe the best
-                                recruitment consultants must have sensitivity, sector experience and an intuitive
-                                understanding of their role in the recruitment process. In short:
+                                In short you can rely us for:
 
+                            {{--  We think differently at itgnepal. We believe good recruitment is not just about using
+                              databases and technology, but also about connecting people with people, matching skills
+                              accurately and getting the culture fit exactly right, every time. We believe the best
+                              recruitment consultants must have sensitivity, sector experience and an intuitive
+                              understanding of their role in the recruitment process. In short:
+--}}
 
                             <div class="check-box">
                                 <ul class="one-half">
@@ -877,29 +875,67 @@
                                 nothing but good and honest work.
                                 <br>
 
-                                <b> OUR COMMITMENTS</b>
 
-                                Establishing our beliefs through everything we do
-                                Our work culture revolves around the idea of striving for excellence. What we promise to
-                                do,
-                                we will do well. We set high standards for ourselves and we make sure to reach that and
-                                satisfy our clients.
-                                <br/>
-
-                                <b> PERFORMANCE AND TEAMWORK</b>
-                                <br>
-                                Finding the synergy in everything we do
-                                We are a group of passionate individuals who are all about achieving our purpose in this
-                                industry. Teamwork is important for us because it allows us to work alongside one
-                                another in
-                                reaching that common goal.
-                                <br>
-
-
-                            </p>
+                        </div>
+                        <div class="item">
+                            <b> OUR COMMITMENTS</b>
+                            <br>
+                            Establishing our beliefs through everything we do,
+                            our work culture revolves around the idea of striving for excellence. What we promise to
+                            do  </p>
+                            <br>
+                            <b> PERFORMANCE AND TEAMWORK</b>
+                            <br>
+                            Finding the synergy in everything we do
+                            We are a group of passionate individuals who are all about achieving our purpose in this
+                            industry. Teamwork is important for us because it allows us to work alongside one
+                            another in
+                            reaching that common goal.
+                            <br>
 
 
-                        </div><!-- /.about-content -->
+                        </div>
+
+                        <script>$(function () { /* to make sure the script runs after page load */
+
+                                $('.item').each(function (event) { /* select all divs with the item class */
+
+                                    var max_length = 2;
+                                    /* set the max content length before a read more link will be added */
+
+                                    if ($(this).html().length > max_length) { /* check for content length */
+
+                                        var short_content = $(this).html().substr(0, max_length);
+                                        /* split the content in two parts */
+                                        var long_content = $(this).html().substr(max_length);
+
+                                        $(this).html(short_content +
+                                            '<a href="#" class="read_more"><u>Read More</u></a>' +
+                                            '<span class="more_text" style="display:none;">' + long_content + '</span>');
+                                        /* Alter the html to allow the read more functionality */
+
+                                        $(this).find('a.read_more').click(function (event) { /* find the a.read_more element within the new html and bind the following code to it */
+
+                                            event.preventDefault();
+                                            /* prevent the a from changing the url */
+                                            $(this).hide();
+                                            /* hide the read more button */
+                                            $(this).parents('.item').find('.more_text').show();
+                                            /* show the .more_text span */
+
+                                        });
+
+                                    }
+
+                                });
+
+
+                            });
+
+                        </script>
+
+
+                        <!-- /.about-content -->
                     </div><!-- /.about -->
                 </div><!-- /.col-md-6 -->
                 <div class="col-md-6 col-sm-6">
@@ -908,16 +944,16 @@
                             <img style="width: 500px; height: 300px; object-fit: cover;"
                                  src="uploads/{{ $aboutus[0]->imagecorevalue }}" alt="">
                         </div><!-- /.about-video -->
-                        <br> <br> <br> <br>
-                        <b> RELATIONSHIPS & TRUST</b>
-                        <br>
-                        Thinking Long Term
-                        In this industry, we always think for the long term. We want to establish good and
-                        lasting
-                        relationships with our clients and candidates, and we believe that trust and
-                        determination
-                        are the ultimate recipe for success.
-                    </div><!-- /.about -->
+                        {{--    <br> <br> <br> <br>
+                            <b> RELATIONSHIPS & TRUST</b>
+                            <br>
+                            Thinking Long Term
+                            In this industry, we always think for the long term. We want to establish good and
+                            lasting
+                            relationships with our clients and candidates, and we believe that trust and
+                            determination
+                            are the ultimate recipe for success.
+                        --}}</div><!-- /.about -->
                 </div><!-- /.col-md-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
@@ -928,7 +964,8 @@
             <div class="row">
                 <div class="col-md-12" style="height: 77px;">
                     <div class="flat-row-title center">
-                        <h2>Demands and Notices</h2>
+
+                        <h2>Demands</h2>
                     </div><!-- /.flat-row-title -->
                 </div>
             </div><!-- /.row -->
@@ -998,7 +1035,7 @@
         --}}    </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.news -->
-    <section style="background-color: #0d70b7">
+    <section >
         <div class="container">
 
 
@@ -1029,7 +1066,7 @@
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                 </div>
                                 <div class="desc">
-                                    <p>{{$staffs[1]->message}}</div>
+                                    <p>{{$staffs[0]->message}}</div>
                             </div><!-- /.testimonial-content -->
                         </div>
 
