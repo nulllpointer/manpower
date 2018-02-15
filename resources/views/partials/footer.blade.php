@@ -1,7 +1,7 @@
-<footer>
+<footer xmlns:background-color="http://www.w3.org/1999/xhtml">
 
 
-   <div>
+   <div style="background-color: #0a3163;" >
        <div class="container">
            <div class="row">
                <div class="col-md-4 col-sm-6 col-xs-12">
@@ -21,11 +21,11 @@
                            <li><a href="/" title="">Home</a></li>
                            <li><a href="/about" title="">About us</a></li>
                            <li><a href="/services" title="">Services</a></li>
-                           <li><a href="/blog" title="">News</a></li>
+                           <li><a href="/blog" title="">Demands</a></li>
                        </ul>
                        <ul class="one-half second">
                            <li><a href="/contact" title="">Contact</a></li>
-                           <li><a href="/gallery" title="">Documents</a></li>
+                           <li><a href="/gallery" title="">Certificates</a></li>
                        </ul>
                    </div><!-- /.widget-quicklink -->
                </div><!-- /.col-md-3 col-sm-6 -->
@@ -48,12 +48,13 @@
            <div class="container">
                <div class="row">
                    <div class="col-md-12">
-                       <ul class="social-footer">
+      {{--                 <ul class="social-footer">
                            <li class="twitter"><a href="#" title=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                            <li class="facebook"><a href="#" title=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                        </ul>
-                       <div class="copyright">
-                           Copyright © Corporation by <a href="#" title="">itgnepal.com.np</a>. All rights reserved
+--}}
+                       <div class="copyright" id="movetext">
+                           Copyright © Corporation by <a href="#" title="">itgnepal.com.np</a>. All rights reserved.&nbspLicense No:&nbsp1062-073-074
                        </div>
                        <div class="clearfix"></div>
                    </div><!-- /.col-md-12 -->
@@ -64,6 +65,7 @@
 
 
    </div>
+
 
     <!-- /.container -->
 </footer><!-- /footer -->

@@ -183,9 +183,12 @@ Route::get('/gallery', function () {
 });*/
 
 
-Route::post('/sendform', function (\Illuminate\Http\Request $request) {
+Route::post(/**
+ * @param \Illuminate\Http\Request $request
+ * @return $this
+ */
+    '/sendform', function (\Illuminate\Http\Request $request) {
 
-    print_r("reached here");
     $validator = Validator::make($request->all(), [
 
 
@@ -200,15 +203,15 @@ Route::post('/sendform', function (\Illuminate\Http\Request $request) {
     $name = $request->name;
     $surname = $request->surname;
     $phone = $request->phone;
-    $message = $request->message;
+    $messages = $request->message;
     $email = $request->email;
 
 
-    $data = array('name' => "$name", 'surname' => "$surname", 'phone' => "$phone", 'message' => "$message", 'email' => "$email");
+    $data = array('name' => "$name", 'surname' => "$surname", 'phone' => "$phone", 'messages' => "$messages", 'email' => "$email");
 
     Mail::send(['text' => 'mail'], $data, function ($message) use ($email) {
         $message->to('contact@itgnepal.com.np')->subject
-        ('Message from itgnepal');
+        ('Message from itgnepalweb');
         $message->from($email);
 
     });
@@ -217,7 +220,6 @@ Route::post('/sendform', function (\Illuminate\Http\Request $request) {
     echo "Email Sent.Thank you for contacting International Trade Group Nepal. We shall get back to you at the earliest";
 
     header("refresh:3; url=contact");
-
 
 });
 

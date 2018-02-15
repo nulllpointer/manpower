@@ -464,7 +464,7 @@
 /* Flat About Style3.tab-content
 -------------------------------------------------------------- */
 .flat-about.style3 {
-	padding: 23px 0 55px;
+	/*padding: 23px 0 55px;*/
 }
 
 .flat-about.style3 .about-title h2 {
@@ -1257,7 +1257,7 @@ article.post .featured-post .post-date {
 	position: absolute;
 	top: 0px;
 	right: 20px;
-	background-color: #c57474;
+	background-color: #6aabde;
 	text-align: center;
 	color: #ffffff;
 	padding: 9px 15px 3px;
@@ -2038,7 +2038,7 @@ article.post.style1.v1 .featured-post {
 -------------------------------------------------------------- */
 #flat-map {
 	width: 100%;
-	height: 400px;
+	height: 463px;
 
 }
 
@@ -2687,7 +2687,7 @@ article.post.style1.v1 .featured-post {
 /* Flat Planning
 -------------------------------------------------------------- */
 .flat-planning {
-	padding: 23px 0 275px;
+	padding: 1px 0 1px;
 
 }
 .tab-planning ul.tab-list {

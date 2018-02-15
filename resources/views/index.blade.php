@@ -8,7 +8,7 @@
     <!-- Basic Page Needs -->
     <meta charset="UTF-8">
     <!--[if IE]>
-    <meta name="Yubraj Basnet" content="International Trade Link">
+    <meta name="Yubaraj Basnet" content="International Trade Link">
 
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <title>International Trade Group</title>
@@ -19,7 +19,7 @@
     <meta name="description" content="International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal.
                                 This company is registered under Nepal Government, Ministry of Labour. (No.
                                 706/064/065). Till now our Company has been successful to satisfy the demands of many
-                                Gulf countries in the Middle East for their manpower requirement.Manpower in Nepal. Send manpower to Qatar,Dubai,Kuwait,Saudi.Manpower,Recruiting agency, Manpower training orintation, Staffing services
+                                Gulf countries in the Middle East.Manpower in Nepal. Send manpower to Qatar,Dubai,Kuwait,Saudi.Manpower,Recruiting agency, Manpower training orintation, Staffing services
 "/>
 
     <meta name="google" content="nositelinkssearchbox"/>
@@ -30,7 +30,7 @@
 
     <!-- Boostrap style -->
 
-    <link rel="icon" sizes="16x16" href="images/itgnepallogo.png">
+    <link rel="icon" sizes="16x16" href="images/uploadlogo.jpg">
 
 
     <link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.min.css">
@@ -50,6 +50,7 @@
 
 </head>
 <body class="home">
+
 
 <div class="preloader">
     <div class="dizzy-gillespie"></div>
@@ -693,7 +694,7 @@
             </div><!-- /.owl-carousel-7 -->
         </section><!-- /.flat-portfolio -->
 --}}
-    <section class="flat-row flat-about">
+    <section class="flat-row flat-about" id=cloudss>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
@@ -705,7 +706,7 @@
                             <p>International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal.
                                 This company is registered under Nepal Government, Ministry of Labour. (No.
                                 706/064/065). Till now our Company has been successful to satisfy the demands of many
-                                Gulf countries in the Middle East for their manpower requirement.&nbsp
+                                Gulf countries in the Middle East.&nbsp
 
                                 In short you can rely us for:
 
@@ -744,7 +745,7 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section>
-    <section class="flat-row flat-about">
+    <section class="flat-row flat-about" id=cloudss>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
@@ -848,7 +849,7 @@
          </div><!-- /.container -->
      </section>
     --}}
-    <section class="flat-row flat-about">
+    <section class="flat-row flat-about" id=cloudss>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
@@ -959,7 +960,7 @@
         </div><!-- /.container -->
     </section>
     <!-- /.flat-about -->
-    <section class="flat-row flat-news">
+    <section class="flat-row flat-news" id=cloudss>
         <div class="container">
             <div class="row">
                 <div class="col-md-12" style="height: 77px;">
@@ -1035,7 +1036,7 @@
         --}}    </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.news -->
-    <section >
+    <section style="background-color: #376094;">
         <div class="container">
 
 
@@ -1049,7 +1050,8 @@
                         <div class="testimonial-item style1">
                             <div class="testimonial-image">
                                 <img src="uploads/{{ $staffs[0]->image }}" alt="{{ $staffs[0]->name }}"
-                                     style="height: 170px; width: 170px">
+                                     style="        height: 201px;
+    width: 188px;">
                             </div>
                             <div class="testimonial-content">
                                 <div class="info-author">
@@ -1072,13 +1074,14 @@
 
                         <div class="testimonial-item style1">
                             <div class="testimonial-image">
-                                <img src="uploads/{{ $staffs[1]->image }}" alt="{{ $staffs[1]->name }}"
-                                     style="height: 170px; width: 170px">
+                                <img src="uploads/{{ $staffs[2]->image }}" alt="{{ $staffs[2]->name }}"
+                                     style="       height: 201px;
+    width: 188px;">
                             </div>
                             <div class="testimonial-content">
                                 <div class="info-author">
-                                    {{$staffs[1]->name}} <span>/</span> <span
-                                            class="option">{{$staffs[1]->department}}</span>
+                                    {{$staffs[2]->name}} <span>/</span> <span
+                                            class="option">{{$staffs[2]->department}}</span>
                                 </div>
 
 
@@ -1090,7 +1093,7 @@
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                 </div>
                                 <div class="desc">
-                                    <p>{{$staffs[1]->message}}</div>
+                                    <p>{{$staffs[2]->message}}</div>
                             </div><!-- /.testimonial-content -->
                         </div>
 

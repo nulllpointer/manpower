@@ -45,7 +45,7 @@
     <!-- Reponsive -->
     <link rel="stylesheet" type="text/css" href="stylesheet/responsive.css">
 
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="icon" sizes="16x16" href="images/uploadlogo.jpg">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
     <!--===============================================================================================-->
@@ -288,10 +288,37 @@
 --}}
 
 
-    <div class="row">
+    <div class="row" id="cloudsform" >
+        <div class="col-md-6">
+            @include('recaptcha.captchacontact')
+
+        </div>
 
 
-        @include('recaptcha.captchacontact')
+<div class="col-md-6">
+    <br>
+
+    <h2 style="color: #376094">Meet us here!!!!</h2>
+<br>
+    <div id="flat-map">
+        <div
+             data-image="images/icon/map.png" data-name="Themesflat Map">
+
+
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
     </div>
 
 
@@ -306,16 +333,22 @@
 
 
 
-    <section class="flat-row map " id="flat-map">
+   {{-- <section class="flat-row map " id="flat-map">
         <div class="flat-maps"
              data-image="images/icon/map.png" data-name="Themesflat Map"></div>
 
     </section><!-- /.flat-map -->
-
-
+--}}
     <script>
+
+
+
         function initMap() {
-            var uluru = {lat: 27.7084959, lng: 85.34656969999992};
+//            var uluru = {lat: 27.7084959, lng: 85.34656969999992};
+
+            var uluru = {lat: 27.705594, lng: 85.348453};
+
+
             var map = new google.maps.Map(document.getElementById('flat-map'), {
                 zoom: 15,
                 center: uluru

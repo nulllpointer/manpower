@@ -18,6 +18,7 @@
 
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <title>International Trade Group</title>
+    <link rel="icon" sizes="16x16" href="images/uploadlogo.jpg">
 
 
     {{--Google Search Optimization--}}
@@ -80,7 +81,7 @@
 --}}
     <section class="flat-row flat-about style3">
         <div class="container">
-            <div class="row">
+            <div class="row" id=cloudss>
                 <div class="col-md-6">
                     <div class="about style2">
                         <div class="flat-row-title left">
@@ -186,10 +187,14 @@
                 </div><!-- /.col-md-6 -->
                 <div class="col-md-6">
                     <div class="about-image center">
+                        <br>
+
+
                         <img class="imagebox-content" src="uploads/{{ $aboutus[0]->imageabout }}"
-                             style="    height: 517px;
-    width: 764px;
-    padding-top: 93px;" max-wid alt="">
+                             style="    object-fit: cover;
+    height: 517px;
+    width: 569px;
+    padding-top: 93px;">
                     </div><!-- /.about -->
                 </div><!-- /.col-md-6 -->
             </div><!-- /.row -->

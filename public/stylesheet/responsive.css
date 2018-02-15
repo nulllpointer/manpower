@@ -106,7 +106,7 @@
 	.main-content,
 	.flat-portfolio.style3,
 	.main-content.style1 {
-		padding: 50px 0;
+		padding: 0px 0;
 	}
 
 	.flat-iconbox.style2,
@@ -542,7 +542,7 @@
 
 }
 
-@media (max-width: 320px) {	
+@media (max-width: 320px) {
 	.footer_logo
 	{
 		width: 100px;

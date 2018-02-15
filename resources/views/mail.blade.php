@@ -2,7 +2,7 @@ Name:    {{ $name }} {{ $surname }}
 Mobile: {{$phone}}
 Email Id: {{$email}}
 
-Message:
+Message: {{$messages}}
 
 
 

@@ -47,9 +47,10 @@
 <header id="header" class="header" >
     <div class="container">
         <div class="row">
+
             <div class="col-md-12">
                 <div id="logo" title="itgnepal">
-                    <a href="/index" title="logo corpbusiness">
+                    <a href="/index" title="itgnepal">
                         <img  src="uploads/{{ $aboutus[0]->logo }}" alt="itglogo" style="   height: 86px;
     width: 254px;">
 
@@ -98,7 +99,7 @@
                              </li>
  --}}
                             <li>
-                                <a href="/gallery" title="">Company Documents</a>
+                                <a href="/gallery" title="">Certificates</a>
                             </li>
 
                             <li>
@@ -129,7 +130,7 @@
     </div><!-- /.logo-canvas -->
     <div class="canvas-content">
         <p>International Trade Group Pvt. Ltd. is one of the reputed recruiting agencies in Nepal. This
-            company is registered under Nepal Government, Ministry of Labour. (No. 706/064/065).Till now
+            company is registered under Nepal Government, Ministry of Labour. (License No. 1062/073/074).Till now
             our Company has been successful to satisfy the demands of many Gulf countries in the Middle
             East for their manpower requirement </p>
         <ul>

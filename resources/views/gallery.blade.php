@@ -31,7 +31,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="icon" sizes="16x16" href="images/itgnepallogo.png">
+    <link rel="icon" sizes="16x16" href="images/uploadlogo.jpg">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Font-awesome CSS -->
@@ -194,7 +194,7 @@
 
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h1><b>Company Legal Documents</b></h1>
+                    <h1><b>License and Certificates</b></h1>
                 </div>
                 {{--<div class="breadcrumbs">
                     <ul>
@@ -211,7 +211,7 @@
 <!-- Start Services Area -->
 <div class="content-block-area">
     <div class="container">
-        <div class="row">
+        <div class="row" id="clouds">
 
             @for ($i = 0; $i < sizeOf($documents); $i++)
 
@@ -219,7 +219,7 @@
 
                     <div class="gallery-item-one col-md-4 col-sm-6">
                         <div class="pic">
-                            <img src="uploads/{{ $documents[$i]->doc_url }}"
+                            <img class="img-thumbnail" src="uploads/{{ $documents[$i]->doc_url }}"
                                  alt="{{ $documents[$i]->caption_heading }}" style="height: 200px;">
                             <ul class="lightbox-link">
                                 <li><a class="lightbox" href="uploads/{{ $documents[$i]->doc_url }}"><i

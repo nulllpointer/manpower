@@ -26,6 +26,7 @@
 " />
 
     <meta name="google" content="nositelinkssearchbox" />
+    <link rel="icon" sizes="16x16" href="images/uploadlogo.jpg">
 
 
 
@@ -63,9 +64,10 @@
         </div><!-- /.row -->
     </div><!-- /.title-heading -->
 --}}
-    <section class="main-content">
+    <section class="main-content" id="clouds">
+
         <div class="container">
-            <div class="row">
+            <div class="row"  >
                 <div class="col-sm-8">
                     <div class="post-wrap">
 

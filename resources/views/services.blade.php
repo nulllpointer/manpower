@@ -16,6 +16,7 @@
 
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <title>International Trade Group</title>
+    <link rel="icon" sizes="16x16" href="images/uploadlogo.jpg">
 
 
     {{--Google Search Optimization--}}
@@ -79,7 +80,13 @@
 
     <section class="flat-planning">
         <div class="container">
-            <div class="row tab-planning" style="    margin-top: 10px;    ">
+
+
+
+
+
+
+            <div id=cloudsservice  class="row tab-planning" style="     ">
                 <div class="col-md-3">
                     <ul class="tab-list">
                         <li id="main">Training And Orientation</li>
@@ -98,7 +105,13 @@
                     <div class="tab-content">
                         <div class="tab-item">
                             <div class="desc">
-                                <p>Appropriate Training is an integral part of Human Resource placement globally. At
+                                <h2><u>Training And Orientation</u></h2>
+                                <br>
+
+
+                                <p>
+
+                                    Appropriate Training is an integral part of Human Resource placement globally. At
                                     International Trade Group Pvt. Ltd. we recognize the significance of value added by
                                     training the available workforce to improve the quality of our overseas clients and
                                     potential candidates in search of better economic employment opportunities abroad.
@@ -146,8 +159,11 @@
 
                         <div class="tab-item">
                             <div class="desc">
+                                <h2><u>Recruitment Process</u></h2>
+                                <br>
+
                                 <p>
-                                <h2><u>Candidate Selection</u></h2>
+                                <h2>Candidate Selection</h2>
 
                                 </p>
 
@@ -176,7 +192,7 @@
 
                             <div class="desc">
                                 <p>
-                                <h2><u>Medical Examination</u></h2>
+                                <h2>Medical Examination</h2>
                                 <br>
 
                                 Persons finally selected will be mobilized to medical examination in an authorized
@@ -189,7 +205,7 @@
 
                             <div class="desc">
                                 <p>
-                                <h2><u>Recruitment Time</u></h2>
+                                <h2>Recruitment Time</h2>
                                 <br>
                                 The process start immediately start after collectiing necessary doucmunets. After
                                 receiving all documents the recruited person
@@ -200,7 +216,7 @@
 
                             <div class="desc">
                                 <p>
-                                <h2><u>Departure Formalities</u></h2>
+                                <h2>Departure Formalities</h2>
 
                                 </p>
 
@@ -236,7 +252,7 @@
 
                             <div class="desc">
                                 <p>
-                                <h2><u>Guarantee</u></h2>
+                                <h2>Guarantee</h2>
 
                                 </p>
 
@@ -279,6 +295,10 @@
 
                         <div class="tab-item">
                             <div class="desc">
+                                <h2><u>Travel and Management</u></h2>
+                                <br>
+
+
                                 <p> Contract signing with the employee is done, travel arrangement becomes the final
                                     procedure. For convenience to the employee and the employer, ITGNEPAL makes complete
                                     travel arrangements. Tickets, VISA and various travel assistance for mobilization
@@ -330,6 +350,9 @@
 
                         <div class="tab-item">
                             <div class="desc">
+                                <h2><u>Why Recruit from Nepal</u></h2>
+                                <br>
+
                                 <p>Over the past years, an increasing number of employers especially from the Middle East
                                     and East Asian Countries, have shown interest in hiring Nepalese workers and many of
                                     them have shifted their attention concerning hiring of expatriate workers from a number
@@ -392,6 +415,9 @@
 
                         <div class="tab-item">
                             <div class="desc">
+                                <h2><u>Semi-Skilled Workers</u></h2>
+                                <br>
+
                                 <p>There are golden opportunities to become a professional for semi skilled workers via
                                     ITG Nepal Pvt. Ltd. because we have vacancies to take aboard for those workers who
                                     are semi skilled as below:
@@ -432,13 +458,17 @@
 
                         <div class="tab-item">
                             <div class="desc">
+                                <h2><u>Unskilled Workers</u></h2>
+                                <br>
+
                                 <p>If you don’t have any experience and any work skills don’t worry we handle the
-                                    situation. Even you are very fresh worker and want to get success in your life
+                                    situation. Even you are very fresh worker and want to succeed in your life
                                     please do contact us, we are ready to apply for your secure job aboard. Our
                                     employers have constant demands for listed jobs. If you are interested then please
                                     dont hesitate,we are here to serve you.
 
                                 </p>
+                                <br>
 
                             </div><!-- /.desc -->
                             <div class="desc">
@@ -467,6 +497,9 @@
 
                         <div class="tab-item">
                             <div class="desc">
+                                <h2><u>Skilled Workers</u></h2>
+                                <br>
+
                                 <p>Having some skill of any fields of work and willing have job ? Yes you are in right
                                     place we have vacancies for those people who have work skill and training of below
                                     fields:
@@ -520,8 +553,9 @@
             </div><!-- /.col-md-9 -->
         </div><!-- /.row tab-planning -->
         <!-- /.container -->
-    </section><!-- /.flat-planning -->
+    </section>
 
+    <!-- /.flat-planning -->
 
     @extends('partials.footer')
 
@@ -796,6 +830,9 @@
 
 
 <!-- Javascript -->
+
+
+
 
 <script>
     $(document).ready(function () {

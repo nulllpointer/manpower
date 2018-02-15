@@ -298,7 +298,7 @@ input[type="email"] {
     display: block;
     width: 100%;
     line-height: 24px;
-    padding: 8px 60px 8px 24px;
+    padding: 4px 60px 8px 1px;;
     color: #222222;
     border: 1px solid #a6a6a6;
     height: 47px;
@@ -319,9 +319,8 @@ input[type="search"] {
 }
 
 input[type="email"] {
-    padding: 8px 20px;
+    padding: -1px 20px;
     color: #555555;
-    border: 1px solid #2e363a;
     height: 47px;
     margin-bottom: 19px;
 }
@@ -738,7 +737,7 @@ button.search-submit-form.active {
 #mainnav .menu > li > a {
 	display: inline-block;
 	padding: 0 30px;
-	color: #222222;
+	color: #ffffff;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -1498,7 +1497,7 @@ article.main-post.style1 .entry-content p {
 /* Footer
 ---------------------------------------------------------------*/
 footer {
-	background-color: #222222;
+	background-color: #0a3163;
 	color: #ffffff;
 	padding: 0px 0 0px;
 }
@@ -1729,7 +1728,7 @@ footer.style2 .widget-quicklink .one-half.second {
 /* Footer Bottom
 ---------------------------------------------------------------*/
 .footer-bottom {
-	background-color: #141414;
+	background-color: #0a3163;
 	padding: 0px 0;
 }
 
@@ -2196,16 +2195,42 @@ article.comment-body .comment-author {
 
 }
 
+	#cloudss {
+		padding: 100px 0;
+		background: #c9dbe9;
+		background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+		background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+		background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	}
 
 
+	#clouds {
+		padding: 100px 0;
+		background: #c9dbe9;
+		background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+		background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+		background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	}
 
-#clouds{
-	padding: 100px 0;
+
+	#cloudsservice{
+
+		padding-top: 20px;
+		padding-right: 0px;
+		padding-bottom: 150px;
+		padding-left: 0px;
+	}
+
+#cloudsform{
 	background: #c9dbe9;
-	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
-	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
-	background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 60px;
+	padding-left: 0px;
 }
+
+
 
 /*Time to finalise the cloud shape*/
 .cloud {
@@ -2314,6 +2339,23 @@ article.comment-body .comment-author {
 	0% {margin-left: 1000px;}
 	100% {margin-left: -1000px;}
 }
+
+
+#movetext {
+	-webkit-animation: moving 25s infinite;
+	animation: moving 25s infinite;
+}
+
+@keyframes moving {
+	from {transform: translateY(0px);}
+	to {transform: translateX(600px);}
+}
+
+.awesomeText {
+	color: #000;
+	font-size: 150%;
+}
+
 
 
 
