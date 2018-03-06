@@ -70,14 +70,6 @@ Route::get('/contact', function () {
 
 });
 
-Route::get('/portfolio', function () {
-    $aboutus = \App\aboutus::get();
-    $notices = \App\notices::get();
-    $staffs = \App\staffs::get();
-
-
-    return view('portfolio', ['aboutus' => $aboutus]);
-});
 
 Route::get('/services', function () {
     $aboutus = \App\aboutus::get();
@@ -87,15 +79,47 @@ Route::get('/services', function () {
 
 });
 
-Route::get('/gallery', function () {
+Route::get('/servicesdetail', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+    return view('single-services', ['aboutus' => $aboutus]);
+
+});
+
+
+
+
+Route::get('/projects   ', function () {
     $aboutus = \App\aboutus::get();
     $documents = \App\documents::get();
     $notices = \App\notices::get();
     $staffs = \App\staffs::get();
 
-    return view('gallery', ['documents' => $documents, 'aboutus' => $aboutus]);
+    return view('project', ['documents' => $documents, 'aboutus' => $aboutus]);
 
 });
+
+Route::get('/news   ', function () {
+    $aboutus = \App\aboutus::get();
+    $documents = \App\documents::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+
+    return view('news', ['documents' => $documents, 'aboutus' => $aboutus]);
+
+});
+
+Route::get('/map   ', function () {
+    $aboutus = \App\aboutus::get();
+    $documents = \App\documents::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+
+    return view('map', ['documents' => $documents, 'aboutus' => $aboutus]);
+
+});
+
 
 
 /*Route::get('/contact.php', function () {

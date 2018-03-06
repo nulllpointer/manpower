@@ -1,3 +1,26 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+
+
+<script>
+    $(document).ready(function () {
+        $('li.active').removeClass('active');
+        $('a[href="' + location.pathname + '"]').closest('li').addClass('active');
+    });
+</script>
+
+
+
+
+
+{{--
 <script type="text/javascript" src="javascript/jquery.min.js"></script>
 <script>
     $(document).ready(function () {
@@ -10,7 +33,8 @@
 
 
 
-    {{--<div class="container">
+    --}}
+{{--<div class="container">
         <div class="row">
             <div class="col-md-12">
                 <ul class="flat-infomation">
@@ -28,7 +52,9 @@
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                     </li>
-                    --}}{{--<li>
+                    --}}{{--
+--}}
+{{--<li>
                         <a href="#" title="">
                             <i class="fa fa-pinterest-p" aria-hidden="true"></i>
                         </a>
@@ -38,10 +64,13 @@
                             <i class="fa fa-rss" aria-hidden="true"></i>
                         </a>
                     </li>--}}{{--
+--}}
+{{--
                 </ul><!-- /.flat-social -->
             </div><!-- /.col-md-12 -->
         </div><!-- /.row -->
-    </div><!-- /.container -->--}}
+    </div><!-- /.container -->--}}{{--
+
 </section><!-- /.header-top -->
 
 <header id="header" class="header" >
@@ -62,18 +91,24 @@
                     <span>a</span>
                 </div><!-- //mobile menu button -->
                 <div class="menu-extra">
-                   {{-- <div class="box-search">
+                   --}}
+{{-- <div class="box-search">
 
                         <div>
-                            --}}{{--<form action="#" method="get" accept-charset="utf-8">
+                            --}}{{--
+--}}
+{{--<form action="#" method="get" accept-charset="utf-8">
                                 <div class="input-search">
                                     <input type="text" name="search">
                                     <button class="button"><i class="fa fa-search" aria-hidden="true"></i></button>
                                 </div>
                             </form>--}}{{--
+--}}
+{{--
                         </div><!-- /.top-search -->
                     </div>
-                   --}} <div class="box-canvas">
+                   --}}{{--
+ <div class="box-canvas">
                         <span><i class="fa fa-bars" aria-hidden="true"></i></span>
                     </div>
                 </div><!-- /.menu-extra -->
@@ -88,16 +123,20 @@
                             </li>
                             <li>
                                 <a href="/services" title="">Services</a>
-                            {{--<ul class="sub-menu">
+                            --}}
+{{--<ul class="sub-menu">
                                 <li><a href="services/#foo" title="">Why Recruit from Nepal</a></li>
                                 <li><a href="services" title="">Services 02</a></li>
                                 <li><a href="services" title="">Services 03</a></li>
-                            </ul>--}}<!-- /.sub-menu -->
+                            </ul>--}}{{--
+<!-- /.sub-menu -->
                             </li>
-                            {{-- <li>
+                            --}}
+{{-- <li>
                                  <a href="/portfolio" title="">Portfolio</a>
                              </li>
- --}}
+ --}}{{--
+
                             <li>
                                 <a href="/gallery" title="">Certificates</a>
                             </li>
@@ -195,3 +234,72 @@
         </div>
     </div><!-- /.canvas-content -->
 </div><!-- /.menu-canvas -->
+--}}
+
+
+
+
+
+<div class="constructo-navtop-area">
+    <div class="topbar-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-left">
+                    <ul class="topaddres">
+                        <li><span class="fa fa-phone"></span> +200 100 5678</li>
+                        <li><span class="fa fa-envelope"></span>contact@jrc.com.np</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-right">
+                    <div class="social-link">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                        <a href="#" class="fa fa-dribbble"></a>
+                        <a href="#" class="fa fa-vine"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-rss"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="constructo-menu-area">
+        <nav class="navbar">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="kazierfan.com"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav menu navbar-nav navbar-right">
+                        <li class="active"><a href="/index">HOME</a></li>
+                        <li><a href="/about">ABOUT</a></li>
+                        <li><a href="/services">SERVICES</a></li>
+                        <li><a href="/project">PROJECTS</a></li>
+                        <li><a href="/news">NEWS</a></li>
+                        <li><a href="/contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+
+
+
+
+
+
+
